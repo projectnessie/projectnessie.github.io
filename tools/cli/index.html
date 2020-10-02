@@ -17,13 +17,13 @@ Options:
   --help               Show this message and exit.
 
 Commands:
-  create-branch  Create a branch and optionally fork from base-branch.
-  delete-branch  Delete a specific branch.
-  list-branches  List all known branches.
-  list-tables    List tables from BRANCH.
-  merge-branch   Merge FROM-BRANCH into TO-BRANCH.
-  show-branch    Show a specific branch.
-  show-table     List tables from BRANCH
+  assign-branch    Assign from one ref to another.
+  create-branch    Create a branch and optionally fork from ref.
+  delete-branch    Delete a specific branch.
+  list-references  List all known references.
+  list-tables      List tables from BRANCH.
+  show-reference   Show a specific reference.
+  show-table       List tables from ref.
 </code></pre></div> <div class="admonition caution"> <p class=admonition-title>Caution</p> <p>Please note that we&rsquo;re actively redefining the cli to better match Git syntax. You should expect that this syntax will change shortly.</p> </div> <h2 id=configuration>Configuration<a class=headerlink href=#configuration title="Permanent link">&para;</a></h2> <p>You can configure the Nessie CLI by creating a configuration file as described below:</p> <ul> <li>macOS: <code>~/.config/nessie</code> and <code>~/Library/Application Support/nessie</code></li> <li>Other Unix: <code>~/.config/nessie</code> and <code>/etc/nessie</code></li> <li>Windows: <code>%APPDATA%\nessie</code> where the <code>APPDATA</code> environment variable falls back to <code>%HOME%\AppData\Roaming</code> if undefined</li> <li>Via the environment variable <code>DREMIO_CLIENTDIR</code></li> </ul> <p>The default config file is as follows:</p> <div class=highlight><pre><span></span><code><span class=nt>auth</span><span class=p>:</span>
     <span class=c1># Type can be either basic or aws</span>
     <span class=nt>type</span><span class=p>:</span> <span class="l l-Scalar l-Scalar-Plain">basic</span>
@@ -38,7 +38,7 @@ Commands:
 
 <span class=c1># whether to skip SSL cert verification</span>
 <span class=nt>verify</span><span class=p>:</span> <span class="l l-Scalar l-Scalar-Plain">true</span> 
-</code></pre></div> <p>When configuring authentication type <code>aws</code>, the client delegates to the <a href=https://boto3.amazonaws.com/v1/documentation/api/latest/index.html>Boto</a> library. You can configure credentials using any of the standard <a href=https://boto3.amazonaws.com/v1/documentation/api/latest/guide/credentials.html#configuring-credentials>Boto AWS methods</a>.</p> <p>The <a href=./ >command line interface</a> can be configured with most of the above parameters via flags or by setting a config directory. The relevant configs can also be set via environment variables. These take precedence. The environment variable format is to append <code>NESSIE_</code> to a config parameter and nested configs are separated by a <em>_</em>. For example: <code>NESSIE_AUTH_TIMEOUT</code> maps to <code>auth.timeout</code> in the default configuration file above.</p> <h2 id=working-with-json>Working with JSON<a class=headerlink href=#working-with-json title="Permanent link">&para;</a></h2> <p>The Nessie CLI returns data in json format and is designed to be used effectively with <a href=https://stedolan.github.io/jq/ ><code>jq</code></a>. For example:</p> <div class=highlight><pre><span></span><code>$ nessie list-branches <span class=p>|</span> jq .
+</code></pre></div> <p>When configuring authentication type <code>aws</code>, the client delegates to the <a href=https://boto3.amazonaws.com/v1/documentation/api/latest/index.html>Boto</a> library. You can configure credentials using any of the standard <a href=https://boto3.amazonaws.com/v1/documentation/api/latest/guide/credentials.html#configuring-credentials>Boto AWS methods</a>.</p> <p>The <a href=./ >command line interface</a> can be configured with most of the above parameters via flags or by setting a config directory. The relevant configs can also be set via environment variables. These take precedence. The environment variable format is to append <code>NESSIE_</code> to a config parameter and nested configs are separated by a <em>_</em>. For example: <code>NESSIE_AUTH_TIMEOUT</code> maps to <code>auth.timeout</code> in the default configuration file above.</p> <h2 id=working-with-json>Working with JSON<a class=headerlink href=#working-with-json title="Permanent link">&para;</a></h2> <p>The Nessie CLI returns data in json format and is designed to be used effectively with <a href=https://stedolan.github.io/jq/ ><code>jq</code></a>. For example:</p> <div class=highlight><pre><span></span><code>$ nessie list-references <span class=p>|</span> jq .
 </code></pre></div> <p>The Nessie CLI is built on the great Python <a href=https://click.palletsprojects.com>Click</a> library. It requires Python 3.x.</p> </article> </div> </div> </main> <!--
   Copyright (c) 2016-2020 Martin Donath <martin.donath@squidfunk.com>
 
