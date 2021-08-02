@@ -66,6 +66,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://projectnessie.org/features/metadata_authorization/</loc>
+         <lastmod>2021-08-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://projectnessie.org/features/security/</loc>
          <lastmod>2021-08-02</lastmod>
          <changefreq>daily</changefreq>
