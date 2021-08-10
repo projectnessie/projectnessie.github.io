@@ -91,11 +91,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://projectnessie.org/tables/hive/</loc>
-         <lastmod>2021-08-10</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://projectnessie.org/tables/iceberg/</loc>
          <lastmod>2021-08-10</lastmod>
          <changefreq>daily</changefreq>
@@ -112,11 +107,6 @@
     </url>
     <url>
          <loc>https://projectnessie.org/tools/cli/</loc>
-         <lastmod>2021-08-10</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://projectnessie.org/tools/hive/</loc>
          <lastmod>2021-08-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
