@@ -146,6 +146,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://projectnessie.org/try/helm/</loc>
+         <lastmod>2021-08-10</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://projectnessie.org/try/releases/</loc>
          <lastmod>2021-08-10</lastmod>
          <changefreq>daily</changefreq>
