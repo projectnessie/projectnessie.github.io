@@ -46,7 +46,7 @@
             <span class=s2>&quot;org.apache.iceberg:iceberg-spark3-runtime:0.11.1&quot;</span><span class=p>)</span> \
         <span class=o>.</span><span class=n>config</span><span class=p>(</span><span class=s2>&quot;spark.sql.catalog.nessie.url&quot;</span><span class=p>,</span> <span class=n>url</span><span class=p>)</span> \
         <span class=o>.</span><span class=n>config</span><span class=p>(</span><span class=s2>&quot;spark.sql.catalog.nessie.ref&quot;</span><span class=p>,</span> <span class=n>ref</span><span class=p>)</span> \
-        <span class=o>.</span><span class=n>config</span><span class=p>(</span><span class=s2>&quot;spark.sql.nessie.nessie.auth_type&quot;</span><span class=p>,</span> <span class=n>auth_type</span><span class=p>)</span> \
+        <span class=o>.</span><span class=n>config</span><span class=p>(</span><span class=s2>&quot;spark.sql.nessie.nessie.auth-type&quot;</span><span class=p>,</span> <span class=n>auth_type</span><span class=p>)</span> \
         <span class=o>.</span><span class=n>config</span><span class=p>(</span><span class=s2>&quot;spark.sql.nessie.nessie.catalog-impl&quot;</span><span class=p>,</span> 
             <span class=s2>&quot;org.apache.iceberg.nessie.NessieCatalog&quot;</span><span class=p>)</span> \
         <span class=o>.</span><span class=n>config</span><span class=p>(</span><span class=s2>&quot;spark.sql.nessie.nessie.warehouse&quot;</span><span class=p>,</span> <span class=n>full_path_to_warehouse</span><span class=p>)</span> \
@@ -247,7 +247,7 @@ spark.delta.logStore.class=org.projectnessie.deltalake.NessieLogStore
         <span class=s>&quot;org.projectnessie:nessie-deltalake-spark3:0.9.0&quot;</span><span class=p>)</span>
     <span class=p>.</span><span class=na>set</span><span class=p>(</span><span class=s>&quot;spark.hadoop.nessie.url&quot;</span><span class=p>,</span> <span class=n>url</span><span class=p>)</span>
     <span class=p>.</span><span class=na>set</span><span class=p>(</span><span class=s>&quot;spark.hadoop.nessie.ref&quot;</span><span class=p>,</span> <span class=n>branch</span><span class=p>)</span>
-    <span class=p>.</span><span class=na>set</span><span class=p>(</span><span class=s>&quot;spark.hadoop.nessie.auth_type&quot;</span><span class=p>,</span> <span class=n>authType</span><span class=p>)</span>
+    <span class=p>.</span><span class=na>set</span><span class=p>(</span><span class=s>&quot;spark.hadoop.nessie.auth-type&quot;</span><span class=p>,</span> <span class=n>authType</span><span class=p>)</span>
     <span class=p>.</span><span class=na>set</span><span class=p>(</span><span class=s>&quot;spark.sql.catalog.spark_catalog&quot;</span><span class=p>,</span>
         <span class=s>&quot;org.apache.spark.sql.delta.catalog.DeltaCatalog&quot;</span><span class=p>)</span>
     <span class=p>.</span><span class=na>set</span><span class=p>(</span><span class=s>&quot;spark.sql.extensions&quot;</span><span class=p>,</span>
