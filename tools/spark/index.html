@@ -21,10 +21,10 @@
         <span class=s>&quot;org.apache.iceberg:iceberg-spark3-runtime:0.11.1&quot;</span><span class=p>)</span>
     <span class=p>.</span><span class=na>set</span><span class=p>(</span><span class=s>&quot;spark.sql.catalog.nessie.url&quot;</span><span class=p>,</span> <span class=n>url</span><span class=p>)</span>
     <span class=p>.</span><span class=na>set</span><span class=p>(</span><span class=s>&quot;spark.sql.catalog.nessie.ref&quot;</span><span class=p>,</span> <span class=n>ref</span><span class=p>)</span>
-    <span class=p>.</span><span class=na>set</span><span class=p>(</span><span class=s>&quot;spark.sql.nessie.nessie.auth_type&quot;</span><span class=p>,</span> <span class=n>authType</span><span class=p>)</span>
-    <span class=p>.</span><span class=na>set</span><span class=p>(</span><span class=s>&quot;spark.sql.nessie.nessie.catalog-impl&quot;</span><span class=p>,</span>
+    <span class=p>.</span><span class=na>set</span><span class=p>(</span><span class=s>&quot;spark.sql.catalog.nessie.auth-type&quot;</span><span class=p>,</span> <span class=n>authType</span><span class=p>)</span>
+    <span class=p>.</span><span class=na>set</span><span class=p>(</span><span class=s>&quot;spark.sql.catalog.nessie.catalog-impl&quot;</span><span class=p>,</span>
         <span class=s>&quot;org.apache.iceberg.nessie.NessieCatalog&quot;</span><span class=p>)</span>
-    <span class=p>.</span><span class=na>set</span><span class=p>(</span><span class=s>&quot;spark.sql.nessie.nessie.warehouse&quot;</span><span class=p>,</span> <span class=n>fullPathToWarehouse</span><span class=p>)</span>
+    <span class=p>.</span><span class=na>set</span><span class=p>(</span><span class=s>&quot;spark.sql.catalog.nessie.warehouse&quot;</span><span class=p>,</span> <span class=n>fullPathToWarehouse</span><span class=p>)</span>
     <span class=p>.</span><span class=na>set</span><span class=p>(</span><span class=s>&quot;spark.sql.catalog.nessie&quot;</span><span class=p>,</span> <span class=s>&quot;org.apache.iceberg.spark.SparkCatalog&quot;</span><span class=p>);</span>
 <span class=n>spark</span> <span class=o>=</span> <span class=n>SparkSession</span><span class=p>.</span><span class=na>builder</span><span class=p>()</span>
                     <span class=p>.</span><span class=na>master</span><span class=p>(</span><span class=s>&quot;local[2]&quot;</span><span class=p>)</span>
@@ -46,10 +46,10 @@
             <span class=s2>&quot;org.apache.iceberg:iceberg-spark3-runtime:0.11.1&quot;</span><span class=p>)</span> \
         <span class=o>.</span><span class=n>config</span><span class=p>(</span><span class=s2>&quot;spark.sql.catalog.nessie.url&quot;</span><span class=p>,</span> <span class=n>url</span><span class=p>)</span> \
         <span class=o>.</span><span class=n>config</span><span class=p>(</span><span class=s2>&quot;spark.sql.catalog.nessie.ref&quot;</span><span class=p>,</span> <span class=n>ref</span><span class=p>)</span> \
-        <span class=o>.</span><span class=n>config</span><span class=p>(</span><span class=s2>&quot;spark.sql.nessie.nessie.auth-type&quot;</span><span class=p>,</span> <span class=n>auth_type</span><span class=p>)</span> \
-        <span class=o>.</span><span class=n>config</span><span class=p>(</span><span class=s2>&quot;spark.sql.nessie.nessie.catalog-impl&quot;</span><span class=p>,</span> 
+        <span class=o>.</span><span class=n>config</span><span class=p>(</span><span class=s2>&quot;spark.sql.catalog.nessie.auth-type&quot;</span><span class=p>,</span> <span class=n>auth_type</span><span class=p>)</span> \
+        <span class=o>.</span><span class=n>config</span><span class=p>(</span><span class=s2>&quot;spark.sql.catalog.nessie.catalog-impl&quot;</span><span class=p>,</span> 
             <span class=s2>&quot;org.apache.iceberg.nessie.NessieCatalog&quot;</span><span class=p>)</span> \
-        <span class=o>.</span><span class=n>config</span><span class=p>(</span><span class=s2>&quot;spark.sql.nessie.nessie.warehouse&quot;</span><span class=p>,</span> <span class=n>full_path_to_warehouse</span><span class=p>)</span> \
+        <span class=o>.</span><span class=n>config</span><span class=p>(</span><span class=s2>&quot;spark.sql.catalog.nessie.warehouse&quot;</span><span class=p>,</span> <span class=n>full_path_to_warehouse</span><span class=p>)</span> \
         <span class=o>.</span><span class=n>config</span><span class=p>(</span><span class=s2>&quot;spark.sql.catalog.nessie&quot;</span><span class=p>,</span>
             <span class=s2>&quot;org.apache.iceberg.spark.SparkCatalog&quot;</span><span class=p>)</span> \
         <span class=o>.</span><span class=n>getOrCreate</span><span class=p>()</span>
