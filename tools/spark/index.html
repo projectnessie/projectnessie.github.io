@@ -21,7 +21,7 @@
         <span class=s>&quot;org.apache.iceberg:iceberg-spark3-runtime:0.11.1&quot;</span><span class=p>)</span>
     <span class=p>.</span><span class=na>set</span><span class=p>(</span><span class=s>&quot;spark.sql.catalog.nessie.url&quot;</span><span class=p>,</span> <span class=n>url</span><span class=p>)</span>
     <span class=p>.</span><span class=na>set</span><span class=p>(</span><span class=s>&quot;spark.sql.catalog.nessie.ref&quot;</span><span class=p>,</span> <span class=n>ref</span><span class=p>)</span>
-    <span class=p>.</span><span class=na>set</span><span class=p>(</span><span class=s>&quot;spark.sql.catalog.nessie.auth-type&quot;</span><span class=p>,</span> <span class=n>authType</span><span class=p>)</span>
+    <span class=p>.</span><span class=na>set</span><span class=p>(</span><span class=s>&quot;spark.sql.catalog.nessie.authentication.type&quot;</span><span class=p>,</span> <span class=n>authType</span><span class=p>)</span>
     <span class=p>.</span><span class=na>set</span><span class=p>(</span><span class=s>&quot;spark.sql.catalog.nessie.catalog-impl&quot;</span><span class=p>,</span>
         <span class=s>&quot;org.apache.iceberg.nessie.NessieCatalog&quot;</span><span class=p>)</span>
     <span class=p>.</span><span class=na>set</span><span class=p>(</span><span class=s>&quot;spark.sql.catalog.nessie.warehouse&quot;</span><span class=p>,</span> <span class=n>fullPathToWarehouse</span><span class=p>)</span>
@@ -46,7 +46,7 @@
             <span class=s2>&quot;org.apache.iceberg:iceberg-spark3-runtime:0.11.1&quot;</span><span class=p>)</span> \
         <span class=o>.</span><span class=n>config</span><span class=p>(</span><span class=s2>&quot;spark.sql.catalog.nessie.url&quot;</span><span class=p>,</span> <span class=n>url</span><span class=p>)</span> \
         <span class=o>.</span><span class=n>config</span><span class=p>(</span><span class=s2>&quot;spark.sql.catalog.nessie.ref&quot;</span><span class=p>,</span> <span class=n>ref</span><span class=p>)</span> \
-        <span class=o>.</span><span class=n>config</span><span class=p>(</span><span class=s2>&quot;spark.sql.catalog.nessie.auth-type&quot;</span><span class=p>,</span> <span class=n>auth_type</span><span class=p>)</span> \
+        <span class=o>.</span><span class=n>config</span><span class=p>(</span><span class=s2>&quot;spark.sql.catalog.nessie.authentication.type&quot;</span><span class=p>,</span> <span class=n>auth_type</span><span class=p>)</span> \
         <span class=o>.</span><span class=n>config</span><span class=p>(</span><span class=s2>&quot;spark.sql.catalog.nessie.catalog-impl&quot;</span><span class=p>,</span> 
             <span class=s2>&quot;org.apache.iceberg.nessie.NessieCatalog&quot;</span><span class=p>)</span> \
         <span class=o>.</span><span class=n>config</span><span class=p>(</span><span class=s2>&quot;spark.sql.catalog.nessie.warehouse&quot;</span><span class=p>,</span> <span class=n>full_path_to_warehouse</span><span class=p>)</span> \
@@ -236,10 +236,12 @@
             <span class=s1>&#39;org.projectnessie:nessie-deltalake-spark3:0.9.2&#39;</span><span class=p>)</span>
     <span class=o>...</span> <span class=n>rest</span> <span class=n>of</span> <span class=n>spark</span> <span class=n>config</span>
     <span class=o>.</span><span class=n>getOrCreate</span><span class=p>()</span>
-</code></pre></div> <p>The Nessie LogStore needs the following parameters set in the Spark/Hadoop config.</p> <div class=highlight><pre><span></span><code>nessie.url = full url to nessie
-nessie.username = username if using basic auth, omitted otherwise
-nessie.password = password if using basic auth, omitted otherwise
-nessie.auth.type = authentication type (BASIC, NONE or AWS)
+</code></pre></div> <p>The Nessie LogStore needs the following parameters set in the Spark/Hadoop config.</p> <p>Note: &ldquo;BASIC&rdquo; authentication is not supported by Nessie servers in &ldquo;production&rdquo; mode.</p> <div class=highlight><pre><span></span><code>nessie.url = full url to nessie
+nessie.authentication.type = authentication type (NONE, BASIC, BEARER or AWS)
+nessie.authentication.token = OpenId token if using &quot;bearer&quot; auth, omitted otherwise
+nessie.authentication.aws.region = AWS region if using AWS auth, omitted otherwise
+nessie.authentication.username = username if using basic auth, omitted otherwise
+nessie.authentication.password = password if using basic auth, omitted otherwise
 spark.delta.logFileHandler.class=org.projectnessie.deltalake.NessieLogFileMetaParser
 spark.delta.logStore.class=org.projectnessie.deltalake.NessieLogStore
 </code></pre></div> <p>These are set as follows in code (or through other methods as described <a href=https://spark.apache.org/docs/latest/configuration.html>here</a>)</p> <div class=tabbed-set data-tabs=8:2><input checked=checked id=__tabbed_8_1 name=__tabbed_8 type=radio><label for=__tabbed_8_1>Java</label><div class=tabbed-content> <div class=highlight><pre><span></span><code><span class=c1>//for a local spark instance</span>
