@@ -111,12 +111,27 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://projectnessie.org/tools/spark/</loc>
+         <loc>https://projectnessie.org/tools/ui/</loc>
          <lastmod>2021-09-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://projectnessie.org/tools/ui/</loc>
+         <loc>https://projectnessie.org/tools/deltalake/</loc>
+         <lastmod>2021-09-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://projectnessie.org/tools/deltalake/spark/</loc>
+         <lastmod>2021-09-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://projectnessie.org/tools/iceberg/</loc>
+         <lastmod>2021-09-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://projectnessie.org/tools/iceberg/spark/</loc>
          <lastmod>2021-09-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
