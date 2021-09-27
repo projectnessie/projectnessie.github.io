@@ -141,6 +141,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://projectnessie.org/tools/iceberg/hive/</loc>
+         <lastmod>2021-09-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://projectnessie.org/tools/iceberg/spark/</loc>
          <lastmod>2021-09-27</lastmod>
          <changefreq>daily</changefreq>
