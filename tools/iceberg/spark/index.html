@@ -18,7 +18,7 @@
 
 <span class=c1>//for a local spark instance</span>
 <span class=n>conf</span><span class=p>.</span><span class=na>set</span><span class=p>(</span><span class=s>&quot;spark.jars.packages&quot;</span><span class=p>,</span>
-        <span class=s>&quot;org.apache.iceberg:iceberg-spark3-runtime:0.12.0,org.projectnessie:nessie-spark-extensions:0.16.0&quot;</span><span class=p>)</span>
+        <span class=s>&quot;org.apache.iceberg:iceberg-spark3-runtime:0.12.0,org.projectnessie:nessie-spark-extensions:0.17.0&quot;</span><span class=p>)</span>
     <span class=p>.</span><span class=na>set</span><span class=p>(</span><span class=s>&quot;spark.sql.extensions&quot;</span><span class=p>,</span> 
         <span class=s>&quot;org.apache.iceberg.spark.extensions.IcebergSparkSessionExtensions,org.projectnessie.spark.extensions.NessieSparkSessionExtensions&quot;</span><span class=p>)</span>
     <span class=p>.</span><span class=na>set</span><span class=p>(</span><span class=s>&quot;spark.sql.catalog.nessie.uri&quot;</span><span class=p>,</span> <span class=n>url</span><span class=p>)</span>
@@ -45,7 +45,7 @@
 <span class=c1># here we are assuming NONE authorisation</span>
 <span class=n>spark</span> <span class=o>=</span> <span class=n>SparkSession</span><span class=o>.</span><span class=n>builder</span> \
         <span class=o>.</span><span class=n>config</span><span class=p>(</span><span class=s2>&quot;spark.jars.packages&quot;</span><span class=p>,</span>
-            <span class=s2>&quot;org.apache.iceberg:iceberg-spark3-runtime:0.12.0,org.projectnessie:nessie-spark-extensions:0.16.0&quot;</span><span class=p>)</span> \
+            <span class=s2>&quot;org.apache.iceberg:iceberg-spark3-runtime:0.12.0,org.projectnessie:nessie-spark-extensions:0.17.0&quot;</span><span class=p>)</span> \
         <span class=o>.</span><span class=n>config</span><span class=p>(</span><span class=s2>&quot;spark.sql.extensions&quot;</span><span class=p>,</span> 
             <span class=s2>&quot;org.apache.iceberg.spark.extensions.IcebergSparkSessionExtensions,org.projectnessie.spark.extensions.NessieSparkSessionExtensions&quot;</span><span class=p>)</span> \
         <span class=o>.</span><span class=n>config</span><span class=p>(</span><span class=s2>&quot;spark.sql.catalog.nessie.uri&quot;</span><span class=p>,</span> <span class=n>url</span><span class=p>)</span> \
