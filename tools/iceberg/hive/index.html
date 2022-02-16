@@ -4,7 +4,7 @@ SET iceberg.catalog.&lt;catalog_name&gt;.&lt;nessie_config_property&gt;=&lt;conf
 SET iceberg.catalog.&lt;catalog_name&gt;.ref=dev;
 SET iceberg.catalog.&lt;catalog_name&gt;.catalog-impl=org.apache.iceberg.nessie.NessieCatalog;
 SET iceberg.catalog.&lt;catalog_name&gt;.uri=http://localhost:19120/api/v1;
-</code></pre></div> <h2 id=create-tables>Create tables<a class=headerlink href=#create-tables title="Permanent link">&para;</a></h2> <p>Whenever Hive creates an Iceberg table, it will create it as external table that is managed by Iceberg catalog (in this case Nessie Catalog), thus, some properties need to be provided in order to create a Iceberg tables in Hive:</p> <p><div class=highlight><pre><span></span><code>CREATE TABLE database_a.table_a (
+</code></pre></div> <h2 id=create-tables>Create tables<a class=headerlink href=#create-tables title="Permanent link">&para;</a></h2> <p>Whenever Hive creates an Iceberg table, it will create it as external table that is managed by Iceberg catalog (in this case Nessie Catalog), thus, some properties need to be provided in order to create an Iceberg tables in Hive:</p> <p><div class=highlight><pre><span></span><code>CREATE TABLE database_a.table_a (
   id bigint, name string
 ) PARTITIONED BY (
   dept string
