@@ -2,217 +2,217 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://projectnessie.org/</loc>
-         <lastmod>2022-08-22</lastmod>
+         <lastmod>2022-08-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/community/</loc>
-         <lastmod>2022-08-22</lastmod>
+         <lastmod>2022-08-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/blog/</loc>
-         <lastmod>2022-08-22</lastmod>
+         <lastmod>2022-08-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/blog/incident-2022-05/</loc>
-         <lastmod>2022-08-22</lastmod>
+         <lastmod>2022-08-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/develop/</loc>
-         <lastmod>2022-08-22</lastmod>
+         <lastmod>2022-08-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/develop/java/</loc>
-         <lastmod>2022-08-22</lastmod>
+         <lastmod>2022-08-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/develop/kernel/</loc>
-         <lastmod>2022-08-22</lastmod>
+         <lastmod>2022-08-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/develop/nessie_vs_git/</loc>
-         <lastmod>2022-08-22</lastmod>
+         <lastmod>2022-08-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/develop/python/</loc>
-         <lastmod>2022-08-22</lastmod>
+         <lastmod>2022-08-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/develop/rest/</loc>
-         <lastmod>2022-08-22</lastmod>
+         <lastmod>2022-08-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/develop/spec/</loc>
-         <lastmod>2022-08-22</lastmod>
+         <lastmod>2022-08-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/features/</loc>
-         <lastmod>2022-08-22</lastmod>
+         <lastmod>2022-08-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/features/best-practices/</loc>
-         <lastmod>2022-08-22</lastmod>
+         <lastmod>2022-08-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/features/intro/</loc>
-         <lastmod>2022-08-22</lastmod>
+         <lastmod>2022-08-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/features/management/</loc>
-         <lastmod>2022-08-22</lastmod>
+         <lastmod>2022-08-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/features/metadata_authorization/</loc>
-         <lastmod>2022-08-22</lastmod>
+         <lastmod>2022-08-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/features/security/</loc>
-         <lastmod>2022-08-22</lastmod>
+         <lastmod>2022-08-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/features/transactions/</loc>
-         <lastmod>2022-08-22</lastmod>
+         <lastmod>2022-08-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/guides/keycloak/</loc>
-         <lastmod>2022-08-22</lastmod>
+         <lastmod>2022-08-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/guides/spark-s3/</loc>
-         <lastmod>2022-08-22</lastmod>
+         <lastmod>2022-08-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/tables/</loc>
-         <lastmod>2022-08-22</lastmod>
+         <lastmod>2022-08-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/tables/deltalake/</loc>
-         <lastmod>2022-08-22</lastmod>
+         <lastmod>2022-08-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/tables/iceberg/</loc>
-         <lastmod>2022-08-22</lastmod>
+         <lastmod>2022-08-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/tables/views/</loc>
-         <lastmod>2022-08-22</lastmod>
+         <lastmod>2022-08-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/tools/</loc>
-         <lastmod>2022-08-22</lastmod>
+         <lastmod>2022-08-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/tools/auth_config/</loc>
-         <lastmod>2022-08-22</lastmod>
+         <lastmod>2022-08-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/tools/cli/</loc>
-         <lastmod>2022-08-22</lastmod>
+         <lastmod>2022-08-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/tools/sql/</loc>
-         <lastmod>2022-08-22</lastmod>
+         <lastmod>2022-08-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/tools/ui/</loc>
-         <lastmod>2022-08-22</lastmod>
+         <lastmod>2022-08-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/tools/deltalake/</loc>
-         <lastmod>2022-08-22</lastmod>
+         <lastmod>2022-08-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/tools/deltalake/spark/</loc>
-         <lastmod>2022-08-22</lastmod>
+         <lastmod>2022-08-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/tools/iceberg/</loc>
-         <lastmod>2022-08-22</lastmod>
+         <lastmod>2022-08-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/tools/iceberg/flink/</loc>
-         <lastmod>2022-08-22</lastmod>
+         <lastmod>2022-08-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/tools/iceberg/hive/</loc>
-         <lastmod>2022-08-22</lastmod>
+         <lastmod>2022-08-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/tools/iceberg/spark/</loc>
-         <lastmod>2022-08-22</lastmod>
+         <lastmod>2022-08-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/try/</loc>
-         <lastmod>2022-08-22</lastmod>
+         <lastmod>2022-08-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/try/authentication/</loc>
-         <lastmod>2022-08-22</lastmod>
+         <lastmod>2022-08-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/try/configuration/</loc>
-         <lastmod>2022-08-22</lastmod>
+         <lastmod>2022-08-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/try/docker/</loc>
-         <lastmod>2022-08-22</lastmod>
+         <lastmod>2022-08-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/try/grafana/</loc>
-         <lastmod>2022-08-22</lastmod>
+         <lastmod>2022-08-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/try/helm/</loc>
-         <lastmod>2022-08-22</lastmod>
+         <lastmod>2022-08-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/try/releases/</loc>
-         <lastmod>2022-08-22</lastmod>
+         <lastmod>2022-08-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/try/server-upgrade/</loc>
-         <lastmod>2022-08-22</lastmod>
+         <lastmod>2022-08-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
