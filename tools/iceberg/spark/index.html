@@ -77,12 +77,14 @@
 <span class=normal>30</span>
 <span class=normal>31</span>
 <span class=normal>32</span>
-<span class=normal>33</span></pre></div></td><td class=code><div><pre><span></span><code><span class=c1>// first instantiate the catalog</span><span class=w></span>
+<span class=normal>33</span>
+<span class=normal>34</span></pre></div></td><td class=code><div><pre><span></span><code><span class=c1>// first instantiate the catalog</span><span class=w></span>
 <span class=n>NessieCatalog</span><span class=w> </span><span class=n>catalog</span><span class=w> </span><span class=o>=</span><span class=w> </span><span class=k>new</span><span class=w> </span><span class=n>NessieCatalog</span><span class=p>();</span><span class=w></span>
 <span class=n>catalog</span><span class=p>.</span><span class=na>setConf</span><span class=p>(</span><span class=n>sc</span><span class=p>.</span><span class=na>hadoopConfiguration</span><span class=p>());</span><span class=w></span>
+<span class=c1>// other catalog properties can be added based on the requirement. For example, &quot;io-impl&quot;,&quot;authentication.type&quot;, etc.</span><span class=w></span>
 <span class=n>catalog</span><span class=p>.</span><span class=na>initialize</span><span class=p>(</span><span class=s>&quot;nessie&quot;</span><span class=p>,</span><span class=w> </span><span class=n>ImmutableMap</span><span class=p>.</span><span class=na>of</span><span class=p>(</span><span class=w></span>
 <span class=w>    </span><span class=s>&quot;ref&quot;</span><span class=p>,</span><span class=w> </span><span class=n>ref</span><span class=p>,</span><span class=w></span>
-<span class=w>    </span><span class=s>&quot;url&quot;</span><span class=p>,</span><span class=w> </span><span class=n>url</span><span class=p>,</span><span class=w></span>
+<span class=w>    </span><span class=s>&quot;uri&quot;</span><span class=p>,</span><span class=w> </span><span class=n>url</span><span class=p>,</span><span class=w></span>
 <span class=w>    </span><span class=s>&quot;warehouse&quot;</span><span class=p>,</span><span class=w> </span><span class=n>pathToWarehouse</span><span class=p>));</span><span class=w></span>
 
 <span class=c1>// Creating table by first creating a table name with namespace</span><span class=w></span>
@@ -137,7 +139,8 @@
 <span class=normal>35</span>
 <span class=normal>36</span>
 <span class=normal>37</span>
-<span class=normal>38</span></pre></div></td><td class=code><div><pre><span></span><code><span class=n>sc</span> <span class=o>=</span> <span class=n>spark</span><span class=o>.</span><span class=n>sparkContext</span>
+<span class=normal>38</span>
+<span class=normal>39</span></pre></div></td><td class=code><div><pre><span></span><code><span class=n>sc</span> <span class=o>=</span> <span class=n>spark</span><span class=o>.</span><span class=n>sparkContext</span>
 <span class=n>jvm</span> <span class=o>=</span> <span class=n>sc</span><span class=o>.</span><span class=n>_gateway</span><span class=o>.</span><span class=n>jvm</span>
 
 <span class=c1># import jvm libraries for iceberg catalogs and schemas</span>
@@ -150,8 +153,9 @@
 <span class=c1># first instantiate the catalog</span>
 <span class=n>catalog</span> <span class=o>=</span> <span class=n>jvm</span><span class=o>.</span><span class=n>NessieCatalog</span><span class=p>()</span>
 <span class=n>catalog</span><span class=o>.</span><span class=n>setConf</span><span class=p>(</span><span class=n>sc</span><span class=o>.</span><span class=n>_jsc</span><span class=o>.</span><span class=n>hadoopConfiguration</span><span class=p>())</span>
+<span class=c1># other catalog properties can be added based on the requirement. For example, &quot;io-impl&quot;,&quot;authentication.type&quot;, etc.</span>
 <span class=n>catalog</span><span class=o>.</span><span class=n>initialize</span><span class=p>(</span><span class=s2>&quot;nessie&quot;</span><span class=p>,</span> <span class=p>{</span><span class=s2>&quot;ref&quot;</span><span class=p>:</span> <span class=n>ref</span><span class=p>,</span>
-    <span class=s2>&quot;url&quot;</span><span class=p>:</span> <span class=n>url</span><span class=p>,</span>
+    <span class=s2>&quot;uri&quot;</span><span class=p>:</span> <span class=n>url</span><span class=p>,</span>
     <span class=s2>&quot;warehouse&quot;</span><span class=p>:</span> <span class=n>pathToWarehouse</span><span class=p>})</span>
 
 <span class=c1># Creating table by first creating a table name with namespace</span>
