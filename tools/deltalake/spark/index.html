@@ -3,13 +3,13 @@
             <span class=s1>&#39;org.projectnessie.nessie-integrations:nessie-deltalake:0.51.1&#39;</span><span class=p>)</span>
     <span class=o>...</span> <span class=n>rest</span> <span class=n>of</span> <span class=n>spark</span> <span class=n>config</span>
     <span class=o>.</span><span class=n>getOrCreate</span><span class=p>()</span>
-</code></pre></div> <p>In order to utilize the additional SQL grammar from the Nessie Spark SQL Extensions make sure to also include <code>org.projectnessie.integrations:nessie-spark-3.2-extensions:0.51.1</code> and to set the <code>spark.sql.extensions</code> config option accordingly (see examples below).</p> <p>The Nessie LogStore needs the following parameters set in the Spark/Hadoop config.</p> <div class=highlight><pre><span></span><code>nessie.url = full url to nessie
+</code></pre></div> <p>In order to utilize the additional SQL grammar from the Nessie Spark SQL Extensions make sure to also include <code>org.projectnessie.nessie-integrations:nessie-spark-3.2-extensions:0.51.1</code> and to set the <code>spark.sql.extensions</code> config option accordingly (see examples below).</p> <p>The Nessie LogStore needs the following parameters set in the Spark/Hadoop config.</p> <div class=highlight><pre><span></span><code>nessie.url = full url to nessie
 nessie.authentication.type = authentication type 
 spark.delta.logFileHandler.class=org.projectnessie.deltalake.NessieLogFileMetaParser
 spark.delta.logStore.class=org.projectnessie.deltalake.NessieLogStore
 </code></pre></div> <p>These are set as follows in code (or through other methods as described <a href=https://spark.apache.org/docs/latest/configuration.html>here</a>)</p> <div class=tabbed-set data-tabs=1:2><input checked=checked id=__tabbed_1_1 name=__tabbed_1 type=radio><label for=__tabbed_1_1>Java</label><div class=tabbed-content> <div class=highlight><pre><span></span><code><span class=c1>//for a local spark instance</span>
 <span class=n>conf</span><span class=p>.</span><span class=na>set</span><span class=p>(</span><span class=s>&quot;spark.jars.packages&quot;</span><span class=p>,</span>
-<span class=w>        </span><span class=s>&quot;org.projectnessie.integrations:nessie-deltalake:0.51.1,org.projectnessie.integrations:nessie-spark-3.2-extensions:0.51.1&quot;</span><span class=p>)</span>
+<span class=w>        </span><span class=s>&quot;org.projectnessie.nessie-integrations:nessie-deltalake:0.51.1,org.projectnessie.nessie-integrations:nessie-spark-3.2-extensions:0.51.1&quot;</span><span class=p>)</span>
 <span class=w>    </span><span class=p>.</span><span class=na>set</span><span class=p>(</span><span class=s>&quot;spark.hadoop.nessie.url&quot;</span><span class=p>,</span><span class=w> </span><span class=n>url</span><span class=p>)</span>
 <span class=w>    </span><span class=p>.</span><span class=na>set</span><span class=p>(</span><span class=s>&quot;spark.hadoop.nessie.ref&quot;</span><span class=p>,</span><span class=w> </span><span class=n>branch</span><span class=p>)</span>
 <span class=w>    </span><span class=p>.</span><span class=na>set</span><span class=p>(</span><span class=s>&quot;spark.hadoop.nessie.authentication.type&quot;</span><span class=p>,</span><span class=w> </span><span class=n>authType</span><span class=p>)</span>
@@ -28,7 +28,7 @@ spark.delta.logStore.class=org.projectnessie.deltalake.NessieLogStore
 </code></pre></div> </div> <input id=__tabbed_1_2 name=__tabbed_1 type=radio><label for=__tabbed_1_2>Python</label><div class=tabbed-content> <div class=highlight><pre><span></span><code><span class=c1># here we are assuming NONE authorisation</span>
 <span class=n>spark</span> <span class=o>=</span> <span class=n>SparkSession</span><span class=o>.</span><span class=n>builder</span> \
         <span class=o>.</span><span class=n>config</span><span class=p>(</span><span class=s2>&quot;spark.jars.packages&quot;</span><span class=p>,</span>
-            <span class=s2>&quot;org.projectnessie.integrations:nessie-deltalake:0.51.1,org.projectnessie.integrations:nessie-spark-3.2-extensions:0.51.1&quot;</span><span class=p>)</span> \
+            <span class=s2>&quot;org.projectnessie.nessie-integrations:nessie-deltalake:0.51.1,org.projectnessie.nessie-integrations:nessie-spark-3.2-extensions:0.51.1&quot;</span><span class=p>)</span> \
         <span class=o>.</span><span class=n>config</span><span class=p>(</span><span class=s2>&quot;spark.hadoop.nessie.url&quot;</span><span class=p>,</span>
             <span class=s2>&quot;http://localhost:19120/api/v1&quot;</span><span class=p>)</span> \
         <span class=o>.</span><span class=n>config</span><span class=p>(</span><span class=s2>&quot;spark.hadoop.nessie.ref&quot;</span><span class=p>,</span> <span class=s2>&quot;main&quot;</span><span class=p>)</span> \
