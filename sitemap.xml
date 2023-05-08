@@ -21,6 +21,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://projectnessie.org/blog/namespace-enforcement/</loc>
+         <lastmod>2023-05-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://projectnessie.org/develop/</loc>
          <lastmod>2023-05-08</lastmod>
          <changefreq>daily</changefreq>
