@@ -116,6 +116,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://projectnessie.org/guides/minikube/</loc>
+         <lastmod>2024-01-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://projectnessie.org/guides/spark-s3/</loc>
          <lastmod>2024-01-29</lastmod>
          <changefreq>daily</changefreq>
@@ -226,7 +231,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://projectnessie.org/try/helm/</loc>
+         <loc>https://projectnessie.org/try/kubernetes/</loc>
          <lastmod>2024-01-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
