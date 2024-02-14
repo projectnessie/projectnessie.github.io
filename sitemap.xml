@@ -81,7 +81,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://projectnessie.org/features/gc-internals/</loc>
+         <loc>https://projectnessie.org/features/gc/</loc>
          <lastmod>2024-02-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
