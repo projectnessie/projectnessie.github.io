@@ -11,6 +11,16 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://projectnessie.org/releases-0.49/</loc>
+         <lastmod>2024-05-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://projectnessie.org/releases-0.69/</loc>
+         <lastmod>2024-05-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://projectnessie.org/releases/</loc>
          <lastmod>2024-05-03</lastmod>
          <changefreq>daily</changefreq>
