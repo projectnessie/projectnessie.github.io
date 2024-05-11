@@ -24,6 +24,7 @@ Commands:
   show-sql-create-schema-script  Print DDL statements to create the schema.
   create-sql-schema              JDBC schema creation.
   completion-script              Extracts the command-line completion script.
+  show-licenses                  Show 3rd party license information.
 </code></pre></div> <div class="admonition info"> <p class=admonition-title>Info</p> <p>Help for all Nessie GC tool commands are <a href=#nessie-gc-tool-commands>below on this page</a></p> </div> <p>The following example assumes that you have a Nessie server running at <code>http://localhost:19120</code> and a PostgreSQL instance running at <code>jdbc:postgresql://localhost:5432/nessie_gc</code> with user <code>pguser</code> and password <code>mysecretpassword</code>.</p> <p>Create the database schema if required:</p> <div class=highlight><pre><span></span><code>java<span class=w> </span>-jar<span class=w> </span>nessie-gc.jar<span class=w> </span>create-sql-schema<span class=w> </span><span class=se>\</span>
 <span class=w>  </span>--jdbc-url<span class=w> </span>jdbc:postgresql://localhost:5432/nessie_gc<span class=w> </span><span class=se>\</span>
 <span class=w>  </span>--jdbc-user<span class=w> </span>pguser<span class=w> </span><span class=se>\</span>
@@ -98,6 +99,7 @@ Commands:
   show-sql-create-schema-script  Print DDL statements to create the schema.
   create-sql-schema              JDBC schema creation.
   completion-script              Extracts the command-line completion script.
+  show-licenses                  Show 3rd party license information.
 </code></pre></div> <p>Below is the output of the Nessie GC tool help for all commands.</p> <h3 id=mark-live-identify-mark><code>mark-live</code>, <code>identify</code>, <code>mark</code><a class=headerlink href=#mark-live-identify-mark title="Permanent link">&para;</a></h3> <div class=highlight><pre><span></span><code>Usage: nessie-gc.jar mark-live [-hV] [-c=&lt;defaultCutoffPolicy&gt;]
                                [--identify-parallelism=&lt;parallelism&gt;] [--nessie-api=&lt;nessieApi&gt;]
                                [--nessie-client=&lt;nessieClientName&gt;] [-R=&lt;cutoffPolicyRefTime&gt;]
