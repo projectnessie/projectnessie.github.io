@@ -56,6 +56,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://projectnessie.org/blog/2024/05/13/nessie-integration-of-iceberg-rest/</loc>
+         <lastmod>2024-05-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://projectnessie.org/blog/2024/05/02/new-nessie-cli-tool/</loc>
          <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
@@ -1417,6 +1422,11 @@
     </url>
     <url>
          <loc>https://projectnessie.org/blog/archive/2022/</loc>
+         <lastmod>2024-05-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://projectnessie.org/blog/page/2/</loc>
          <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
