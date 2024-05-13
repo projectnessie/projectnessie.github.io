@@ -2,1422 +2,1422 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://projectnessie.org/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/community/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/releases-0.49/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/releases-0.69/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/releases/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/server-upgrade/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/blog/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/blog/2022/05/31/rolling-upgrade-issue-to-0260/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/blog/2023/05/08/namespace-enforcement-in-nessie/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/blog/2023/06/20/introducing-nessie-as-a-dremio-source/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/blog/2024/04/11/projectnessieorg-site-reorg/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/blog/2024/05/02/new-nessie-cli-tool/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/develop/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/develop/content-types/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/develop/java/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/develop/kernel/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/develop/python/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/develop/repository-configs/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/develop/rest/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/develop/spec/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/downloads/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/guides/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/guides/about/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/guides/best-practices/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/guides/docker/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/guides/grafana/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/guides/keycloak/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/guides/kubernetes/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/guides/management/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/guides/migration/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/guides/minikube/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/guides/nessie_vs_git/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/guides/spark-s3/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/guides/sql/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/guides/tables-views/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/guides/tls/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/guides/transactions/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/guides/ui/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/iceberg/flink/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/iceberg/hive/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/iceberg/iceberg/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/iceberg/spark/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/iceberg/trino/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/iceberg/views/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-79-0/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-79-0/authentication/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-79-0/authorization/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-79-0/cli/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-79-0/client_config/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-79-0/configuration/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-79-0/export_import/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-79-0/gc/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-79-0/security/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-80-0/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-80-0/authentication/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-80-0/authorization/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-80-0/cli/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-80-0/client_config/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-80-0/configuration/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-80-0/export_import/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-80-0/gc/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-80-0/security/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-80-0/generated-docs/client-config-AWS_Authentication/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-80-0/generated-docs/client-config-Basic_Authentication/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-80-0/generated-docs/client-config-Bearer_Authentication/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-80-0/generated-docs/client-config-Network/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-80-0/generated-docs/client-config-Network_HTTP/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-80-0/generated-docs/client-config-OAuth2_Authentication/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-80-0/generated-docs/client-config-main/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-80-0/generated-docs/smallrye-nessie_server/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-80-0/generated-docs/smallrye-nessie_server_authentication/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-80-0/generated-docs/smallrye-nessie_server_authorization/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-80-0/generated-docs/smallrye-nessie_version_store/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-80-0/generated-docs/smallrye-nessie_version_store_cassandra/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-80-0/generated-docs/smallrye-nessie_version_store_persist/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-80-0/generated-docs/smallrye-nessie_version_store_persist_bigtable/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-80-0/generated-docs/smallrye-nessie_version_store_persist_dynamodb/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-80-0/generated-docs/smallrye-nessie_version_store_persist_jdbc/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-80-0/generated-docs/smallrye-nessie_version_store_persist_rocks/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-81-0/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-81-0/authentication/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-81-0/authorization/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-81-0/cli/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-81-0/client_config/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-81-0/configuration/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-81-0/export_import/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-81-0/gc/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-81-0/security/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-81-0/generated-docs/client-config-AWS_Authentication/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-81-0/generated-docs/client-config-Basic_Authentication/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-81-0/generated-docs/client-config-Bearer_Authentication/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-81-0/generated-docs/client-config-Network/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-81-0/generated-docs/client-config-Network_HTTP/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-81-0/generated-docs/client-config-OAuth2_Authentication/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-81-0/generated-docs/client-config-main/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-81-0/generated-docs/smallrye-nessie_server/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-81-0/generated-docs/smallrye-nessie_server_authentication/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-81-0/generated-docs/smallrye-nessie_server_authorization/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-81-0/generated-docs/smallrye-nessie_version_store/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-81-0/generated-docs/smallrye-nessie_version_store_cassandra/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-81-0/generated-docs/smallrye-nessie_version_store_persist/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-81-0/generated-docs/smallrye-nessie_version_store_persist_bigtable/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-81-0/generated-docs/smallrye-nessie_version_store_persist_dynamodb/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-81-0/generated-docs/smallrye-nessie_version_store_persist_jdbc/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-81-0/generated-docs/smallrye-nessie_version_store_persist_rocks/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-81-1/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-81-1/authentication/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-81-1/authorization/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-81-1/cli/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-81-1/client_config/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-81-1/configuration/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-81-1/export_import/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-81-1/gc/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-81-1/security/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-81-1/generated-docs/client-config-AWS_Authentication/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-81-1/generated-docs/client-config-Basic_Authentication/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-81-1/generated-docs/client-config-Bearer_Authentication/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-81-1/generated-docs/client-config-Network/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-81-1/generated-docs/client-config-Network_HTTP/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-81-1/generated-docs/client-config-OAuth2_Authentication/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-81-1/generated-docs/client-config-main/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-81-1/generated-docs/smallrye-nessie_server/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-81-1/generated-docs/smallrye-nessie_server_authentication/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-81-1/generated-docs/smallrye-nessie_server_authorization/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-81-1/generated-docs/smallrye-nessie_version_store/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-81-1/generated-docs/smallrye-nessie_version_store_cassandra/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-81-1/generated-docs/smallrye-nessie_version_store_persist/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-81-1/generated-docs/smallrye-nessie_version_store_persist_bigtable/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-81-1/generated-docs/smallrye-nessie_version_store_persist_dynamodb/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-81-1/generated-docs/smallrye-nessie_version_store_persist_jdbc/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-81-1/generated-docs/smallrye-nessie_version_store_persist_rocks/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-82-0/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-82-0/authentication/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-82-0/authorization/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-82-0/cli/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-82-0/client_config/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-82-0/configuration/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-82-0/export_import/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-82-0/gc/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-82-0/security/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-82-0/generated-docs/client-config-AWS_Authentication/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-82-0/generated-docs/client-config-Basic_Authentication/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-82-0/generated-docs/client-config-Bearer_Authentication/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-82-0/generated-docs/client-config-Network/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-82-0/generated-docs/client-config-Network_HTTP/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-82-0/generated-docs/client-config-OAuth2_Authentication/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-82-0/generated-docs/client-config-main/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-82-0/generated-docs/smallrye-nessie_server/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-82-0/generated-docs/smallrye-nessie_server_authentication/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-82-0/generated-docs/smallrye-nessie_server_authorization/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-82-0/generated-docs/smallrye-nessie_version_store/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-82-0/generated-docs/smallrye-nessie_version_store_cassandra/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-82-0/generated-docs/smallrye-nessie_version_store_persist/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-82-0/generated-docs/smallrye-nessie_version_store_persist_bigtable/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-82-0/generated-docs/smallrye-nessie_version_store_persist_dynamodb/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-82-0/generated-docs/smallrye-nessie_version_store_persist_jdbc/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-0-82-0/generated-docs/smallrye-nessie_version_store_persist_rocks/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-latest/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-latest/authentication/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-latest/authorization/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-latest/cli/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-latest/client_config/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-latest/configuration/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-latest/export_import/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-latest/gc/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-latest/security/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-latest/generated-docs/client-config-AWS_Authentication/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-latest/generated-docs/client-config-Basic_Authentication/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-latest/generated-docs/client-config-Bearer_Authentication/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-latest/generated-docs/client-config-Network/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-latest/generated-docs/client-config-Network_HTTP/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-latest/generated-docs/client-config-OAuth2_Authentication/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-latest/generated-docs/client-config-main/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-latest/generated-docs/smallrye-nessie_server/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-latest/generated-docs/smallrye-nessie_server_authentication/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-latest/generated-docs/smallrye-nessie_server_authorization/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-latest/generated-docs/smallrye-nessie_version_store/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-latest/generated-docs/smallrye-nessie_version_store_cassandra/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-latest/generated-docs/smallrye-nessie_version_store_persist/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-latest/generated-docs/smallrye-nessie_version_store_persist_bigtable/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-latest/generated-docs/smallrye-nessie_version_store_persist_dynamodb/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-latest/generated-docs/smallrye-nessie_version_store_persist_jdbc/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-latest/generated-docs/smallrye-nessie_version_store_persist_rocks/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/authentication/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/authorization/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/cli/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/client_config/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/configuration/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/export_import/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/gc/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/pynessie/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/security/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-help-AlterNamespaceStatement/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-help-AssignReferenceStatement/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-help-ConnectStatement/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-help-CreateNamespaceStatement/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-help-CreateReferenceStatement/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-help-DropContentStatement/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-help-DropNamespaceStatement/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-help-DropReferenceStatement/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-help-ExistingReference/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-help-ExitStatement/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-help-HelpStatement/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-help-ListContentsStatement/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-help-ListReferencesStatement/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-help-MergeBranchStatement/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-help-ReferenceName/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-help-ShowContentStatement/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-help-ShowLogStatement/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-help-ShowReferenceStatement/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-help-TimestampOrCommit/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-help-UseReferenceStatement/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-help/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-syntax-AlterNamespaceStatement/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-syntax-AlterStatement/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-syntax-AssignReferenceStatement/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-syntax-ConnectStatement/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-syntax-ContentKey/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-syntax-ContentKind/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-syntax-CreateNamespaceStatement/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-syntax-CreateReferenceStatement/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-syntax-CreateStatement/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-syntax-DropContentStatement/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-syntax-DropReferenceStatement/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-syntax-DropStatement/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-syntax-ExistingReference/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-syntax-ExitStatement/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-syntax-HelpStatement/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-syntax-Identifier/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-syntax-ListContentsStatement/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-syntax-ListReferencesStatement/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-syntax-ListStatement/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-syntax-MergeBehaviorKind/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-syntax-MergeBranchStatement/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-syntax-ParamKey/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-syntax-PositiveInt/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-syntax-PositiveInteger/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-syntax-ReferenceName/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-syntax-ReferenceType/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-syntax-Script/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-syntax-ShowContentStatement/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-syntax-ShowLogStatement/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-syntax-ShowReferenceStatement/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-syntax-ShowStatement/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-syntax-SingleStatement/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-syntax-Statement/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-syntax-TimestampOrCommit/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-syntax-Uri/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-syntax-UriIdentifier/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-syntax-UseReferenceStatement/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-syntax-Value/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/client-config-AWS_Authentication/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/client-config-Basic_Authentication/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/client-config-Bearer_Authentication/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/client-config-Network/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/client-config-Network_HTTP/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/client-config-OAuth2_Authentication/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/client-config-main/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/gc-help-completion-script/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/gc-help-create-sql-schema/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/gc-help-deferred-deletes/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/gc-help-delete/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/gc-help-gc/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/gc-help-list-deferred/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/gc-help-list/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/gc-help-mark/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/gc-help-show-sql-create-schema-script/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/gc-help-show/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/gc-help-sweep/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/gc-help/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/smallrye-nessie_server/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/smallrye-nessie_server_authentication/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/smallrye-nessie_server_authorization/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/smallrye-nessie_version_store/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/smallrye-nessie_version_store_cassandra/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/smallrye-nessie_version_store_persist/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/smallrye-nessie_version_store_persist_bigtable/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/smallrye-nessie_version_store_persist_dynamodb/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/smallrye-nessie_version_store_persist_jdbc/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/smallrye-nessie_version_store_persist_rocks/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/blog/archive/2024/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/blog/archive/2023/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/blog/archive/2022/</loc>
-         <lastmod>2024-05-12</lastmod>
+         <lastmod>2024-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
