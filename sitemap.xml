@@ -146,6 +146,16 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://projectnessie.org/guides/iceberg-rest/</loc>
+         <lastmod>2024-06-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://projectnessie.org/guides/introduction/</loc>
+         <lastmod>2024-06-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://projectnessie.org/guides/keycloak/</loc>
          <lastmod>2024-06-11</lastmod>
          <changefreq>daily</changefreq>
@@ -197,6 +207,11 @@
     </url>
     <url>
          <loc>https://projectnessie.org/guides/transactions/</loc>
+         <lastmod>2024-06-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://projectnessie.org/guides/try-nessie/</loc>
          <lastmod>2024-06-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
