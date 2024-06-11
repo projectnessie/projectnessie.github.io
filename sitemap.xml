@@ -56,6 +56,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://projectnessie.org/blog/2024/06/05/nessie-cache-improvements/</loc>
+         <lastmod>2024-06-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://projectnessie.org/blog/2024/05/13/nessie-integration-of-iceberg-rest/</loc>
          <lastmod>2024-06-11</lastmod>
          <changefreq>daily</changefreq>
