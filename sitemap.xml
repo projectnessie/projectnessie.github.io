@@ -2196,11 +2196,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://projectnessie.org/nessie-latest/generated-docs/client-config-OAuth2_Authentication_Token_Exchange/</loc>
-         <lastmod>2024-06-13</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://projectnessie.org/nessie-latest/generated-docs/client-config-main/</loc>
          <lastmod>2024-06-13</lastmod>
          <changefreq>daily</changefreq>
