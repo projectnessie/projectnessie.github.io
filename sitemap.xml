@@ -186,6 +186,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://projectnessie.org/guides/reverse-proxy/</loc>
+         <lastmod>2024-06-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://projectnessie.org/guides/spark-s3/</loc>
          <lastmod>2024-06-20</lastmod>
          <changefreq>daily</changefreq>
