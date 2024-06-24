@@ -3761,7 +3761,32 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://projectnessie.org/nessie-nightly/generated-docs/client-config-OAuth2_Authentication_Authorization_Code/</loc>
+         <lastmod>2024-06-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://projectnessie.org/nessie-nightly/generated-docs/client-config-OAuth2_Authentication_Device_Code/</loc>
+         <lastmod>2024-06-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://projectnessie.org/nessie-nightly/generated-docs/client-config-OAuth2_Authentication_Impersonation/</loc>
+         <lastmod>2024-06-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://projectnessie.org/nessie-nightly/generated-docs/client-config-OAuth2_Authentication_Password/</loc>
+         <lastmod>2024-06-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/client-config-OAuth2_Authentication_Token_Exchange/</loc>
+         <lastmod>2024-06-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://projectnessie.org/nessie-nightly/generated-docs/client-config-OAuth2_Authentication_Token_Refresh/</loc>
          <lastmod>2024-06-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
