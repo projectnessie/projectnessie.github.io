@@ -4441,12 +4441,67 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://projectnessie.org/nessie-nightly/generated-docs/smallrye-nessie_catalog_service_gcs/</loc>
+         <loc>https://projectnessie.org/nessie-nightly/generated-docs/smallrye-nessie_catalog_service_adls_buckets/</loc>
+         <lastmod>2024-06-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://projectnessie.org/nessie-nightly/generated-docs/smallrye-nessie_catalog_service_adls_default_options/</loc>
+         <lastmod>2024-06-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://projectnessie.org/nessie-nightly/generated-docs/smallrye-nessie_catalog_service_adls_transport/</loc>
+         <lastmod>2024-06-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://projectnessie.org/nessie-nightly/generated-docs/smallrye-nessie_catalog_service_gcs_buckets/</loc>
+         <lastmod>2024-06-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://projectnessie.org/nessie-nightly/generated-docs/smallrye-nessie_catalog_service_gcs_default_options/</loc>
+         <lastmod>2024-06-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://projectnessie.org/nessie-nightly/generated-docs/smallrye-nessie_catalog_service_gcs_transport/</loc>
          <lastmod>2024-06-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/smallrye-nessie_catalog_service_s3/</loc>
+         <lastmod>2024-06-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://projectnessie.org/nessie-nightly/generated-docs/smallrye-nessie_catalog_service_s3_buckets/</loc>
+         <lastmod>2024-06-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://projectnessie.org/nessie-nightly/generated-docs/smallrye-nessie_catalog_service_s3_default_options/</loc>
+         <lastmod>2024-06-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://projectnessie.org/nessie-nightly/generated-docs/smallrye-nessie_catalog_service_s3_sts/</loc>
+         <lastmod>2024-06-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://projectnessie.org/nessie-nightly/generated-docs/smallrye-nessie_catalog_service_s3_transport/</loc>
+         <lastmod>2024-06-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://projectnessie.org/nessie-nightly/generated-docs/smallrye-nessie_catalog_warehouseDefaults/</loc>
+         <lastmod>2024-06-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://projectnessie.org/nessie-nightly/generated-docs/smallrye-nessie_catalog_warehouses/</loc>
          <lastmod>2024-06-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
