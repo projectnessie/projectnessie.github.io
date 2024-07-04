@@ -8,7 +8,7 @@ Per-bucket configurations. The effective value for a bucket is taken from the pe
 | `nessie.catalog.service.gcs.buckets.buckets.`_`<bucket-name>`_`.project-id` |  | `string` | The Google project ID.  |
 | `nessie.catalog.service.gcs.buckets.buckets.`_`<bucket-name>`_`.quota-project-id` |  | `string` | The Google quota project ID.  |
 | `nessie.catalog.service.gcs.buckets.buckets.`_`<bucket-name>`_`.client-lib-token` |  | `string` | The Google client lib token.  |
-| `nessie.catalog.service.gcs.buckets.buckets.`_`<bucket-name>`_`.auth-type` |  | `NONE, USER, SERVICE_ACCOUNT, ACCESS_TOKEN` | The authentication type to use.  |
+| `nessie.catalog.service.gcs.buckets.buckets.`_`<bucket-name>`_`.auth-type` |  | `NONE, USER, SERVICE_ACCOUNT, ACCESS_TOKEN, APPLICATION_DEFAULT` | The authentication type to use.  |
 | `nessie.catalog.service.gcs.buckets.buckets.`_`<bucket-name>`_`.auth-credentials-json` |  | `string` | Auth-credentials-JSON, this value is the name of the credential to use, the actual credential  is defined via secrets.   |
 | `nessie.catalog.service.gcs.buckets.buckets.`_`<bucket-name>`_`.oauth2-token` |  | `` | OAuth2 token, this value is the name of the credential to use, the actual credential is defined  via secrets.   |
 | `nessie.catalog.service.gcs.buckets.buckets.`_`<bucket-name>`_`.oauth2-token.token` |  | `string` |  |
