@@ -5111,6 +5111,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://projectnessie.org/nessie-nightly/generated-docs/smallrye-nessie_catalog_service_gcs/</loc>
+         <lastmod>2024-07-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/smallrye-nessie_catalog_service_gcs_buckets/</loc>
          <lastmod>2024-07-08</lastmod>
          <changefreq>daily</changefreq>
