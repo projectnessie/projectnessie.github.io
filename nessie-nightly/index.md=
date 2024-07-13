@@ -185,7 +185,7 @@ The following examples show how to add the Nessie BOM to your build configuratio
         <dependency>
           <groupId>org.projectnessie.nessie</groupId>
           <artifactId>nessie-bom</artifactId>
-          <version>0.92.1-SNAPSHOT</version>
+          <version>0.92.2-SNAPSHOT</version>
           <type>pom</type>
           <scope>import</scope>
         </dependency>
@@ -205,13 +205,13 @@ The following examples show how to add the Nessie BOM to your build configuratio
     In your Gradle project's `build.gradle.kts` add the Nessie BOM as an enforced platform:
     ```kotlin
     dependencies {
-      enforcedPlatform("org.projectnessie.nessie:nessie-bom:0.92.1-SNAPSHOT")
+      enforcedPlatform("org.projectnessie.nessie:nessie-bom:0.92.2-SNAPSHOT")
     }
     ```
     A full example using the `nessie-client` artifact:
     ```kotlin
     dependencies {
-      enforcedPlatform("org.projectnessie.nessie:nessie-bom:0.92.1-SNAPSHOT")
+      enforcedPlatform("org.projectnessie.nessie:nessie-bom:0.92.2-SNAPSHOT")
       implementation("org.projectnessie.nessie:nessie-client")
     }
     ```
