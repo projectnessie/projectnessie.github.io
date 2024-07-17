@@ -8,7 +8,7 @@ Default bucket configuration, default/fallback values for all buckets are taken 
 | `nessie.catalog.service.gcs.default-options.default-options.project-id` |  | `string` | The Google project ID.  |
 | `nessie.catalog.service.gcs.default-options.default-options.quota-project-id` |  | `string` | The Google quota project ID.  |
 | `nessie.catalog.service.gcs.default-options.default-options.client-lib-token` |  | `string` | The Google client lib token.  |
-| `nessie.catalog.service.gcs.default-options.default-options.auth-type` |  | `NONE, USER, SERVICE_ACCOUNT, ACCESS_TOKEN, APPLICATION_DEFAULT` | The authentication type to use.  |
+| `nessie.catalog.service.gcs.default-options.default-options.auth-type` | `NONE` | `NONE, USER, SERVICE_ACCOUNT, ACCESS_TOKEN, APPLICATION_DEFAULT` | The authentication type to use. If not set, the default is `NONE`. |
 | `nessie.catalog.service.gcs.default-options.default-options.auth-credentials-json` |  | `string` | Auth-credentials-JSON, this value is the name of the credential to use, the actual credential  is defined via secrets.   |
 | `nessie.catalog.service.gcs.default-options.default-options.oauth2-token` |  | `` | OAuth2 token, this value is the name of the credential to use, the actual credential is defined  via secrets.   |
 | `nessie.catalog.service.gcs.default-options.default-options.oauth2-token.token` |  | `string` |  |
