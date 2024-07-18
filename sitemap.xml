@@ -6311,6 +6311,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://projectnessie.org/nessie-nightly/generated-docs/smallrye-nessie_catalog_error_handling/</loc>
+         <lastmod>2024-07-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/smallrye-nessie_catalog_service/</loc>
          <lastmod>2024-07-18</lastmod>
          <changefreq>daily</changefreq>
