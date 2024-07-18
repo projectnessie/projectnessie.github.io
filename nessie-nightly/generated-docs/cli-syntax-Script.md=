@@ -1,4 +1,1 @@
-> **Statement**
-  \{ `;` **Statement** \}
-  \[ `;` \]
-  
+> **Statement** \{ `;` **Statement** \} \[ `;` \]

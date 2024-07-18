@@ -1,3 +1,5 @@
-> `SHOW`
-      **ShowLogStatement** | **ShowContentStatement** | **ShowReferenceStatement**
-  
+> `SHOW` <br>
+      ( **ShowLogStatement**<br>
+      | **ShowContentStatement**<br>
+      | **ShowReferenceStatement**<br>
+      )

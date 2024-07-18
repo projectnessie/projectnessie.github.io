@@ -1,23 +1,10 @@
-> `REVERT` `CONTENT`
-  \[ `DRY` \]
-  `OF` **ContentKey**
-  \{ `AND` **ContentKey** \}
-  \[ `ON`
-      \[ **ReferenceType** \]
-      **ExistingReference** \]
-  `TO` `STATE`
-      `ON`
-      \[ **ReferenceType** \]
-      **ExistingReference**
-      \[ `AT`
-          \[
-                  `TIMESTAMP` | `COMMIT`
-              \]
-          **TimestampOrCommit** \]
-      | `AT`
-      \[
-              `TIMESTAMP` | `COMMIT`
-          \]
-      **TimestampOrCommit**
-  \[ `ALLOW` `DELETES` \]
-  
+> `REVERT` `CONTENT` <br>
+      \[ `DRY` \] <br>
+      `OF` **ContentKey** <br>
+      \{ `AND` **ContentKey** \} <br>
+      \[ `ON` \[ **ReferenceType** \] **ExistingReference** \] <br>
+      `TO` `STATE` <br>
+      ( `ON` \[ **ReferenceType** \] **ExistingReference** \[ `AT` \[ `TIMESTAMP` | `COMMIT` \] **TimestampOrCommit** \]<br>
+      | `AT` \[ `TIMESTAMP` | `COMMIT` \] **TimestampOrCommit**<br>
+      ) <br>
+      \[ `ALLOW` `DELETES` \]
