@@ -5951,6 +5951,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-help-RevertContentStatement/</loc>
+         <lastmod>2024-07-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-help-ShowContentStatement/</loc>
          <lastmod>2024-07-18</lastmod>
          <changefreq>daily</changefreq>
@@ -6107,6 +6112,11 @@
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-syntax-ReferenceType/</loc>
+         <lastmod>2024-07-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-syntax-RevertContentStatement/</loc>
          <lastmod>2024-07-18</lastmod>
          <changefreq>daily</changefreq>
     </url>

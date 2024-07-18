@@ -22,6 +22,6 @@
           \[
                   `BRANCH` | `TAG`
               \]
-          | `MERGE` | `HELP` | `EXIT` | `LICENSE`
+          | `MERGE` | `REVERT` | `HELP` | `EXIT` | `LICENSE`
       \]
   
