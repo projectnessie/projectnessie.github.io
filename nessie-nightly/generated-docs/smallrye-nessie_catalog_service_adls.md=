@@ -7,5 +7,5 @@ All settings are optional. The defaults of these settings are defined by the ADL
 | Property | Default Value | Type | Description |
 |----------|---------------|------|-------------|
 | `nessie.catalog.service.adls.configuration.`_`<name>`_ |  | `string` | Custom settings for the ADLS Java client.  |
-| `nessie.catalog.service.adls.write-block-size` |  | `long` | Override the default write block size used when writing to ADLS.  |
 | `nessie.catalog.service.adls.read-block-size` |  | `int` | Override the default read block size used when writing to ADLS.  |
+| `nessie.catalog.service.adls.write-block-size` |  | `long` | Override the default write block size used when writing to ADLS.  |
