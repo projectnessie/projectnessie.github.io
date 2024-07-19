@@ -1,1 +1,3 @@
-> `LIST` ( **ListReferencesStatement** | **ListContentsStatement** )
+> `LIST`
+      **ListReferencesStatement** | **ListContentsStatement**
+  
