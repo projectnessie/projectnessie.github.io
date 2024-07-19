@@ -1,3 +1,8 @@
-> `CREATE` `NAMESPACE` **ContentKey** <br>
-      \[ `ON` \[ **ReferenceType** \] **ExistingReference** \] <br>
-      \[ `SET` **ParamKey** `=` **Value** \{ `AND` **ParamKey** `=` **Value** \} \]
+> `CREATE` `NAMESPACE` **ContentKey**
+  \[ `ON`
+      \[ **ReferenceType** \]
+      **ExistingReference** \]
+  \[ `SET` **ParamKey** `=` **Value**
+      \{ `AND` **ParamKey** `=` **Value** \}
+      \]
+  

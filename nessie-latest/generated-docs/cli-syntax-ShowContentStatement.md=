@@ -1,4 +1,10 @@
-> `SHOW` **ContentKind** <br>
-      \[ `ON` \[ **ReferenceType** \] **ExistingReference** \] <br>
-      \[ `AT` \[ `TIMESTAMP` | `COMMIT` \] **TimestampOrCommit** \] <br>
-      **ContentKey**
+> `SHOW` **ContentKind**
+  \[ `ON`
+      \[ **ReferenceType** \]
+      **ExistingReference** \]
+  \[ `AT`
+      \[
+              `TIMESTAMP` | `COMMIT`
+          \]
+      **TimestampOrCommit** \]
+  **ContentKey** 

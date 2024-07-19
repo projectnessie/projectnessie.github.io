@@ -1,2 +1,5 @@
-> `DROP` **ContentKind** **ContentKey** <br>
-      \[ `ON` \[ **ReferenceType** \] **ExistingReference** \]
+> `DROP` **ContentKind** **ContentKey**
+  \[ `ON`
+      \[ **ReferenceType** \]
+      **ExistingReference** \]
+  

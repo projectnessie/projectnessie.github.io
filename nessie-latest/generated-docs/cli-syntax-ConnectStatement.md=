@@ -1,3 +1,6 @@
-> `CONNECT` `TO` **Uri** <br>
-      \[ `ON` **ReferenceName** \] <br>
-      \[ `USING` **ParamKey** `=` **Value** \{ `AND` **ParamKey** `=` **Value** \} \]
+> `CONNECT` `TO` **Uri**
+  \[ `ON` **ReferenceName** \]
+  \[ `USING` **ParamKey** `=` **Value**
+      \{ `AND` **ParamKey** `=` **Value** \}
+      \]
+  

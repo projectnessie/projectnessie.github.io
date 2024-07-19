@@ -1,1 +1,3 @@
-> `DROP` **ReferenceType** \[ `IF` `EXISTS` \] **ExistingReference**
+> `DROP` **ReferenceType**
+  \[ `IF` `EXISTS` \]
+  **ExistingReference** 
