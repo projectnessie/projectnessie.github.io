@@ -5346,6 +5346,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://projectnessie.org/nessie-latest/generated-docs/cli-help-RevertContentStatement/</loc>
+         <lastmod>2024-07-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://projectnessie.org/nessie-latest/generated-docs/cli-help-ShowContentStatement/</loc>
          <lastmod>2024-07-19</lastmod>
          <changefreq>daily</changefreq>
@@ -5502,6 +5507,11 @@
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-latest/generated-docs/cli-syntax-ReferenceType/</loc>
+         <lastmod>2024-07-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://projectnessie.org/nessie-latest/generated-docs/cli-syntax-RevertContentStatement/</loc>
          <lastmod>2024-07-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -5692,6 +5702,11 @@
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-latest/generated-docs/smallrye-nessie_catalog/</loc>
+         <lastmod>2024-07-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://projectnessie.org/nessie-latest/generated-docs/smallrye-nessie_catalog_error_handling/</loc>
          <lastmod>2024-07-19</lastmod>
          <changefreq>daily</changefreq>
     </url>

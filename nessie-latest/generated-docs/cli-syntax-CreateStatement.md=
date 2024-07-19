@@ -1,3 +1,4 @@
-> `CREATE`
-      **CreateReferenceStatement** | **CreateNamespaceStatement**
-  
+> `CREATE` <br>
+      ( **CreateReferenceStatement**<br>
+      | **CreateNamespaceStatement**<br>
+      )

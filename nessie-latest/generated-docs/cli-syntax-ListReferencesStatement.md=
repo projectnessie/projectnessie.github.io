@@ -1,7 +1,4 @@
-> `LIST` `REFERENCES`
-  \[
-          `FILTER` **Value** |
-          \[ `STARTING` `WITH` **Value** \]
-          \[ `CONTAINING` **Value** \]
+> `LIST` `REFERENCES` <br>
+      \[ `FILTER` **Value**<br>
+      | \[ `STARTING` `WITH` **Value** \] \[ `CONTAINING` **Value** \]<br>
       \]
-  

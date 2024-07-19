@@ -1,27 +1,15 @@
-> `HELP`
-  \[
-          `USE` | `CONNECT` | `CREATE`
-          \[
-                  `BRANCH` | `TAG` | `NAMESPACE`
-              \]
-          | `ALTER`
-          \[ `NAMESPACE` \]
-          | `DROP`
-          \[
-                  `BRANCH` | `TAG` | `NAMESPACE` | `TABLE` | `VIEW`
-              \]
-          | `LIST`
-          \[
-                  `CONTENTS` | `REFERENCES`
-              \]
-          | `SHOW`
-          \[
-                  `LOG` | `TABLE` | `VIEW` | `NAMESPACE` | `REFERENCE`
-              \]
-          | `ASSIGN`
-          \[
-                  `BRANCH` | `TAG`
-              \]
-          | `MERGE` | `HELP` | `EXIT` | `LICENSE`
+> `HELP` <br>
+      \[ `USE`<br>
+      | `CONNECT`<br>
+      | `CREATE` \[ ( `BRANCH` | `TAG` | `NAMESPACE` ) \]<br>
+      | `ALTER` \[ `NAMESPACE` \]<br>
+      | `DROP` \[ `BRANCH` | `TAG` | `NAMESPACE` | `TABLE` | `VIEW` \]<br>
+      | `LIST` \[ `CONTENTS` | `REFERENCES` \]<br>
+      | `SHOW` \[ `LOG` | `TABLE` | `VIEW` | `NAMESPACE` | `REFERENCE` \]<br>
+      | `ASSIGN` \[ `BRANCH` | `TAG` \]<br>
+      | `MERGE`<br>
+      | `REVERT`<br>
+      | `HELP`<br>
+      | `EXIT`<br>
+      | `LICENSE`<br>
       \]
-  
