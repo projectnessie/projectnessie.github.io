@@ -76,6 +76,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://projectnessie.org/blog/2024/08/02/open-source-polaris-announcement/</loc>
+         <lastmod>2024-08-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://projectnessie.org/develop/</loc>
          <lastmod>2024-08-02</lastmod>
          <changefreq>daily</changefreq>
@@ -10197,6 +10202,11 @@
     </url>
     <url>
          <loc>https://projectnessie.org/blog/page/2/</loc>
+         <lastmod>2024-08-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://projectnessie.org/blog/archive/2024/page/2/</loc>
          <lastmod>2024-08-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
