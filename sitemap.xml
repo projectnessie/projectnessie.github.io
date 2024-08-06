@@ -9621,6 +9621,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://projectnessie.org/nessie-nightly/trino/</loc>
+         <lastmod>2024-08-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/cli-help-AlterNamespaceStatement/</loc>
          <lastmod>2024-08-06</lastmod>
          <changefreq>daily</changefreq>
