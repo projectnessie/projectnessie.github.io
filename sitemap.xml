@@ -12561,11 +12561,15 @@
          <lastmod>2024-09-25</lastmod>
     </url>
     <url>
-         <loc>https://projectnessie.org/nessie-nightly/generated-docs/smallrye-nessie_catalog_gcs_default_options/</loc>
+         <loc>https://projectnessie.org/nessie-nightly/generated-docs/smallrye-nessie_catalog_gcs_config/</loc>
          <lastmod>2024-09-25</lastmod>
     </url>
     <url>
-         <loc>https://projectnessie.org/nessie-nightly/generated-docs/smallrye-nessie_catalog_gcs_transport/</loc>
+         <loc>https://projectnessie.org/nessie-nightly/generated-docs/smallrye-nessie_catalog_gcs_config_transport/</loc>
+         <lastmod>2024-09-25</lastmod>
+    </url>
+    <url>
+         <loc>https://projectnessie.org/nessie-nightly/generated-docs/smallrye-nessie_catalog_gcs_default_options/</loc>
          <lastmod>2024-09-25</lastmod>
     </url>
     <url>
@@ -12577,15 +12581,15 @@
          <lastmod>2024-09-25</lastmod>
     </url>
     <url>
+         <loc>https://projectnessie.org/nessie-nightly/generated-docs/smallrye-nessie_catalog_s3_config_sts/</loc>
+         <lastmod>2024-09-25</lastmod>
+    </url>
+    <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/smallrye-nessie_catalog_s3_config_transport/</loc>
          <lastmod>2024-09-25</lastmod>
     </url>
     <url>
          <loc>https://projectnessie.org/nessie-nightly/generated-docs/smallrye-nessie_catalog_s3_default_options/</loc>
-         <lastmod>2024-09-25</lastmod>
-    </url>
-    <url>
-         <loc>https://projectnessie.org/nessie-nightly/generated-docs/smallrye-nessie_catalog_s3_sts/</loc>
          <lastmod>2024-09-25</lastmod>
     </url>
     <url>
