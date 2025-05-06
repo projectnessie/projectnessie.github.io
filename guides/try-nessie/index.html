@@ -3,7 +3,7 @@
 docker-compose<span class=w> </span>-f<span class=w> </span>catalog-auth-s3/docker-compose.yml<span class=w> </span>up
 <span class=c1># or use podman-compose, if you&#39;re using Podman</span>
 </code></pre></div> <p>Once all the containers are running, you can run Spark-SQL:</p> <div class=highlight><pre><span></span><code>spark-sql<span class=w>  </span><span class=se>\</span>
-<span class=w>  </span>--packages<span class=w> </span><span class=s2>&quot;org.projectnessie.nessie-integrations:nessie-spark-extensions-3.5_2.12:0.103.6,org.apache.iceberg:iceberg-spark-runtime-3.5_2.12:1.8.1,org.apache.iceberg:iceberg-aws-bundle:1.8.1&quot;</span><span class=w> </span><span class=se>\</span>
+<span class=w>  </span>--packages<span class=w> </span><span class=s2>&quot;org.projectnessie.nessie-integrations:nessie-spark-extensions-3.5_2.12:0.103.6,org.apache.iceberg:iceberg-spark-runtime-3.5_2.12:1.9.0,org.apache.iceberg:iceberg-aws-bundle:1.9.0&quot;</span><span class=w> </span><span class=se>\</span>
 <span class=w>  </span>--conf<span class=w> </span>spark.sql.extensions<span class=o>=</span>org.projectnessie.spark.extensions.NessieSparkSessionExtensions,org.apache.iceberg.spark.extensions.IcebergSparkSessionExtensions<span class=w> </span><span class=se>\</span>
 <span class=w>  </span>--conf<span class=w> </span>spark.sql.catalogImplementation<span class=o>=</span><span class=k>in</span>-memory<span class=w> </span><span class=se>\</span>
 <span class=w>  </span>--conf<span class=w> </span><span class=s2>&quot;spark.sql.catalog.nessie.scope=catalog sign&quot;</span><span class=w> </span><span class=se>\</span>
