@@ -3,9 +3,9 @@
                                       &lt;String=String&gt;...]]... ([--inmemory] | [[--jdbc]
                                       --jdbc-url=&lt;url&gt; [--jdbc-properties[=&lt;String=String&gt;[,
                                       &lt;String=String&gt;...]...]]... [--jdbc-user=&lt;user&gt;]
-                                      [--jdbc-password=&lt;password&gt;]
-                                      [--jdbc-schema=&lt;schemaCreateStrategy&gt;]]) (-l=&lt;liveSetId&gt; |
-                                      -L=&lt;liveSetIdFile&gt;)
+                                      [--jdbc-password=&lt;password&gt;] [--jdbc-fetch-size
+                                      [=&lt;fetchSize&gt;]] [--jdbc-schema=&lt;schemaCreateStrategy&gt;]])
+                                      (-l=&lt;liveSetId&gt; | -L=&lt;liveSetIdFile&gt;)
 Delete files collected as deferred deletes, must not be used with the in-memory contents-storage.
   -h, --help                 Show this help message and exit.
   -H, --hadoop=&lt;String=String&gt;[,&lt;String=String&gt;...]
@@ -59,6 +59,10 @@ Delete files collected as deferred deletes, must not be used with the in-memory 
                                storage.
       --jdbc                 Flag whether to use the JDBC contents storage.
       --jdbc                 Flag whether to use the JDBC contents storage.
+      --jdbc-fetch-size[=&lt;fetchSize&gt;]
+                             JDBC fetch size, defaults to 100.
+      --jdbc-fetch-size[=&lt;fetchSize&gt;]
+                             JDBC fetch size, defaults to 100.
       --jdbc-password=&lt;password&gt;
                              JDBC password used to authenticate the database access.
       --jdbc-password=&lt;password&gt;

@@ -108,7 +108,8 @@ Commands:
                                &lt;String=String&gt;...]...]]... ([--inmemory] | [[--jdbc]
                                --jdbc-url=&lt;url&gt; [--jdbc-properties[=&lt;String=String&gt;[,
                                &lt;String=String&gt;...]...]]... [--jdbc-user=&lt;user&gt;]
-                               [--jdbc-password=&lt;password&gt;] [--jdbc-schema=&lt;schemaCreateStrategy&gt;]])
+                               [--jdbc-password=&lt;password&gt;] [--jdbc-fetch-size[=&lt;fetchSize&gt;]]
+                               [--jdbc-schema=&lt;schemaCreateStrategy&gt;]])
 Run identify-live-content phase of Nessie GC, must not be used with the in-memory contents-storage.
   -c, --default-cutoff=&lt;defaultCutoffPolicy&gt;
                              Default cutoff policy. Policies can be one of:
@@ -134,6 +135,10 @@ Run identify-live-content phase of Nessie GC, must not be used with the in-memor
                                storage.
       --jdbc                 Flag whether to use the JDBC contents storage.
       --jdbc                 Flag whether to use the JDBC contents storage.
+      --jdbc-fetch-size[=&lt;fetchSize&gt;]
+                             JDBC fetch size, defaults to 100.
+      --jdbc-fetch-size[=&lt;fetchSize&gt;]
+                             JDBC fetch size, defaults to 100.
       --jdbc-password=&lt;password&gt;
                              JDBC password used to authenticate the database access.
       --jdbc-password=&lt;password&gt;
@@ -178,8 +183,9 @@ Run identify-live-content phase of Nessie GC, must not be used with the in-memor
                            [-I=&lt;String=String&gt;[,&lt;String=String&gt;...]]... ([--inmemory] | [[--jdbc]
                            --jdbc-url=&lt;url&gt; [--jdbc-properties[=&lt;String=String&gt;[,
                            &lt;String=String&gt;...]...]]... [--jdbc-user=&lt;user&gt;]
-                           [--jdbc-password=&lt;password&gt;] [--jdbc-schema=&lt;schemaCreateStrategy&gt;]])
-                           (-l=&lt;liveSetId&gt; | -L=&lt;liveSetIdFile&gt;)
+                           [--jdbc-password=&lt;password&gt;] [--jdbc-fetch-size[=&lt;fetchSize&gt;]]
+                           [--jdbc-schema=&lt;schemaCreateStrategy&gt;]]) (-l=&lt;liveSetId&gt; |
+                           -L=&lt;liveSetIdFile&gt;)
 Run expire-files + delete-orphan-files phase of Nessie GC using a live-contents-set stored by a
 previous run of the mark-live command, must not be used with the in-memory contents-storage.
       --allowed-fpp=&lt;allowedFalsePositiveProbability&gt;
@@ -249,6 +255,10 @@ previous run of the mark-live command, must not be used with the in-memory conte
                                storage.
       --jdbc                 Flag whether to use the JDBC contents storage.
       --jdbc                 Flag whether to use the JDBC contents storage.
+      --jdbc-fetch-size[=&lt;fetchSize&gt;]
+                             JDBC fetch size, defaults to 100.
+      --jdbc-fetch-size[=&lt;fetchSize&gt;]
+                             JDBC fetch size, defaults to 100.
       --jdbc-password=&lt;password&gt;
                              JDBC password used to authenticate the database access.
       --jdbc-password=&lt;password&gt;
@@ -291,8 +301,8 @@ previous run of the mark-live command, must not be used with the in-memory conte
                         [=&lt;String=String&gt;[,&lt;String=String&gt;...]...]]... [-o[=&lt;String=String&gt;[,
                         &lt;String=String&gt;...]...]]... ([--inmemory] | [[--jdbc] --jdbc-url=&lt;url&gt;
                         [--jdbc-properties[=&lt;String=String&gt;[,&lt;String=String&gt;...]...]]...
-                        [--jdbc-user=&lt;user&gt;] [--jdbc-password=&lt;password&gt;]
-                        [--jdbc-schema=&lt;schemaCreateStrategy&gt;]])
+                        [--jdbc-user=&lt;user&gt;] [--jdbc-password=&lt;password&gt;] [--jdbc-fetch-size
+                        [=&lt;fetchSize&gt;]] [--jdbc-schema=&lt;schemaCreateStrategy&gt;]])
 Run identify-live-content and expire-files + delete-orphan-files.
 This is the same as running a &#39;mark-live&#39; + a &#39;sweep&#39; command, but this variant works with the
 in-memory contents storage.
@@ -380,6 +390,10 @@ in-memory contents storage.
                                storage.
       --jdbc                 Flag whether to use the JDBC contents storage.
       --jdbc                 Flag whether to use the JDBC contents storage.
+      --jdbc-fetch-size[=&lt;fetchSize&gt;]
+                             JDBC fetch size, defaults to 100.
+      --jdbc-fetch-size[=&lt;fetchSize&gt;]
+                             JDBC fetch size, defaults to 100.
       --jdbc-password=&lt;password&gt;
                              JDBC password used to authenticate the database access.
       --jdbc-password=&lt;password&gt;
@@ -421,8 +435,8 @@ in-memory contents storage.
                              Optional, the file name to persist the created live-set-id to.
 </code></pre></div> <h3 id=list><code>list</code><a class=headerlink href=#list title="Permanent link">&para;</a></h3> <div class=highlight><pre><span></span><code>Usage: nessie-gc.jar list [-hV] [--time-zone=&lt;zoneId&gt;] ([--inmemory] | [[--jdbc] --jdbc-url=&lt;url&gt;
                           [--jdbc-properties[=&lt;String=String&gt;[,&lt;String=String&gt;...]...]]...
-                          [--jdbc-user=&lt;user&gt;] [--jdbc-password=&lt;password&gt;]
-                          [--jdbc-schema=&lt;schemaCreateStrategy&gt;]])
+                          [--jdbc-user=&lt;user&gt;] [--jdbc-password=&lt;password&gt;] [--jdbc-fetch-size
+                          [=&lt;fetchSize&gt;]] [--jdbc-schema=&lt;schemaCreateStrategy&gt;]])
 List existing live-sets, must not be used with the in-memory contents-storage.
   -h, --help                 Show this help message and exit.
       --inmemory             Flag whether to use the in-memory contents storage. Prefer a JDBC
@@ -431,6 +445,10 @@ List existing live-sets, must not be used with the in-memory contents-storage.
                                storage.
       --jdbc                 Flag whether to use the JDBC contents storage.
       --jdbc                 Flag whether to use the JDBC contents storage.
+      --jdbc-fetch-size[=&lt;fetchSize&gt;]
+                             JDBC fetch size, defaults to 100.
+      --jdbc-fetch-size[=&lt;fetchSize&gt;]
+                             JDBC fetch size, defaults to 100.
       --jdbc-password=&lt;password&gt;
                              JDBC password used to authenticate the database access.
       --jdbc-password=&lt;password&gt;
@@ -454,9 +472,9 @@ List existing live-sets, must not be used with the in-memory contents-storage.
   -V, --version              Print version information and exit.
 </code></pre></div> <h3 id=delete><code>delete</code><a class=headerlink href=#delete title="Permanent link">&para;</a></h3> <div class=highlight><pre><span></span><code>Usage: nessie-gc.jar delete [-hV] [--time-zone=&lt;zoneId&gt;] ([--inmemory] | [[--jdbc] --jdbc-url=&lt;url&gt;
                             [--jdbc-properties[=&lt;String=String&gt;[,&lt;String=String&gt;...]...]]...
-                            [--jdbc-user=&lt;user&gt;] [--jdbc-password=&lt;password&gt;]
-                            [--jdbc-schema=&lt;schemaCreateStrategy&gt;]]) (-l=&lt;liveSetId&gt; |
-                            -L=&lt;liveSetIdFile&gt;)
+                            [--jdbc-user=&lt;user&gt;] [--jdbc-password=&lt;password&gt;] [--jdbc-fetch-size
+                            [=&lt;fetchSize&gt;]] [--jdbc-schema=&lt;schemaCreateStrategy&gt;]])
+                            (-l=&lt;liveSetId&gt; | -L=&lt;liveSetIdFile&gt;)
 Delete a live-set, must not be used with the in-memory contents-storage.
   -h, --help                 Show this help message and exit.
       --inmemory             Flag whether to use the in-memory contents storage. Prefer a JDBC
@@ -465,6 +483,10 @@ Delete a live-set, must not be used with the in-memory contents-storage.
                                storage.
       --jdbc                 Flag whether to use the JDBC contents storage.
       --jdbc                 Flag whether to use the JDBC contents storage.
+      --jdbc-fetch-size[=&lt;fetchSize&gt;]
+                             JDBC fetch size, defaults to 100.
+      --jdbc-fetch-size[=&lt;fetchSize&gt;]
+                             JDBC fetch size, defaults to 100.
       --jdbc-password=&lt;password&gt;
                              JDBC password used to authenticate the database access.
       --jdbc-password=&lt;password&gt;
@@ -493,7 +515,7 @@ Delete a live-set, must not be used with the in-memory contents-storage.
 </code></pre></div> <h3 id=list-deferred><code>list-deferred</code><a class=headerlink href=#list-deferred title="Permanent link">&para;</a></h3> <div class=highlight><pre><span></span><code>Usage: nessie-gc.jar list-deferred [-hV] [--time-zone=&lt;zoneId&gt;] ([--inmemory] | [[--jdbc]
                                    --jdbc-url=&lt;url&gt; [--jdbc-properties[=&lt;String=String&gt;[,
                                    &lt;String=String&gt;...]...]]... [--jdbc-user=&lt;user&gt;]
-                                   [--jdbc-password=&lt;password&gt;]
+                                   [--jdbc-password=&lt;password&gt;] [--jdbc-fetch-size[=&lt;fetchSize&gt;]]
                                    [--jdbc-schema=&lt;schemaCreateStrategy&gt;]]) (-l=&lt;liveSetId&gt; |
                                    -L=&lt;liveSetIdFile&gt;)
 List files collected as deferred deletes, must not be used with the in-memory contents-storage.
@@ -504,6 +526,10 @@ List files collected as deferred deletes, must not be used with the in-memory co
                                storage.
       --jdbc                 Flag whether to use the JDBC contents storage.
       --jdbc                 Flag whether to use the JDBC contents storage.
+      --jdbc-fetch-size[=&lt;fetchSize&gt;]
+                             JDBC fetch size, defaults to 100.
+      --jdbc-fetch-size[=&lt;fetchSize&gt;]
+                             JDBC fetch size, defaults to 100.
       --jdbc-password=&lt;password&gt;
                              JDBC password used to authenticate the database access.
       --jdbc-password=&lt;password&gt;
@@ -534,9 +560,9 @@ List files collected as deferred deletes, must not be used with the in-memory co
                                       &lt;String=String&gt;...]]... ([--inmemory] | [[--jdbc]
                                       --jdbc-url=&lt;url&gt; [--jdbc-properties[=&lt;String=String&gt;[,
                                       &lt;String=String&gt;...]...]]... [--jdbc-user=&lt;user&gt;]
-                                      [--jdbc-password=&lt;password&gt;]
-                                      [--jdbc-schema=&lt;schemaCreateStrategy&gt;]]) (-l=&lt;liveSetId&gt; |
-                                      -L=&lt;liveSetIdFile&gt;)
+                                      [--jdbc-password=&lt;password&gt;] [--jdbc-fetch-size
+                                      [=&lt;fetchSize&gt;]] [--jdbc-schema=&lt;schemaCreateStrategy&gt;]])
+                                      (-l=&lt;liveSetId&gt; | -L=&lt;liveSetIdFile&gt;)
 Delete files collected as deferred deletes, must not be used with the in-memory contents-storage.
   -h, --help                 Show this help message and exit.
   -H, --hadoop=&lt;String=String&gt;[,&lt;String=String&gt;...]
@@ -590,6 +616,10 @@ Delete files collected as deferred deletes, must not be used with the in-memory 
                                storage.
       --jdbc                 Flag whether to use the JDBC contents storage.
       --jdbc                 Flag whether to use the JDBC contents storage.
+      --jdbc-fetch-size[=&lt;fetchSize&gt;]
+                             JDBC fetch size, defaults to 100.
+      --jdbc-fetch-size[=&lt;fetchSize&gt;]
+                             JDBC fetch size, defaults to 100.
       --jdbc-password=&lt;password&gt;
                              JDBC password used to authenticate the database access.
       --jdbc-password=&lt;password&gt;
@@ -618,8 +648,9 @@ Delete files collected as deferred deletes, must not be used with the in-memory 
 </code></pre></div> <h3 id=show><code>show</code><a class=headerlink href=#show title="Permanent link">&para;</a></h3> <div class=highlight><pre><span></span><code>Usage: nessie-gc.jar show [-BCDhV] [--time-zone=&lt;zoneId&gt;] ([--inmemory] | [[--jdbc]
                           --jdbc-url=&lt;url&gt; [--jdbc-properties[=&lt;String=String&gt;[,
                           &lt;String=String&gt;...]...]]... [--jdbc-user=&lt;user&gt;]
-                          [--jdbc-password=&lt;password&gt;] [--jdbc-schema=&lt;schemaCreateStrategy&gt;]])
-                          (-l=&lt;liveSetId&gt; | -L=&lt;liveSetIdFile&gt;)
+                          [--jdbc-password=&lt;password&gt;] [--jdbc-fetch-size[=&lt;fetchSize&gt;]]
+                          [--jdbc-schema=&lt;schemaCreateStrategy&gt;]]) (-l=&lt;liveSetId&gt; |
+                          -L=&lt;liveSetIdFile&gt;)
 Show information of a live-content-set, must not be used with the in-memory contents-storage.
   -B, --with-base-locations  Show base locations.
   -C, --with-content-references
@@ -633,6 +664,10 @@ Show information of a live-content-set, must not be used with the in-memory cont
                                storage.
       --jdbc                 Flag whether to use the JDBC contents storage.
       --jdbc                 Flag whether to use the JDBC contents storage.
+      --jdbc-fetch-size[=&lt;fetchSize&gt;]
+                             JDBC fetch size, defaults to 100.
+      --jdbc-fetch-size[=&lt;fetchSize&gt;]
+                             JDBC fetch size, defaults to 100.
       --jdbc-password=&lt;password&gt;
                              JDBC password used to authenticate the database access.
       --jdbc-password=&lt;password&gt;
@@ -667,10 +702,13 @@ Print DDL statements to create the schema.
 </code></pre></div> <h3 id=create-sql-schema><code>create-sql-schema</code><a class=headerlink href=#create-sql-schema title="Permanent link">&para;</a></h3> <div class=highlight><pre><span></span><code>Usage: nessie-gc.jar create-sql-schema [-hV] ([--jdbc] --jdbc-url=&lt;url&gt; [--jdbc-properties
                                        [=&lt;String=String&gt;[,&lt;String=String&gt;...]...]]...
                                        [--jdbc-user=&lt;user&gt;] [--jdbc-password=&lt;password&gt;]
+                                       [--jdbc-fetch-size[=&lt;fetchSize&gt;]]
                                        [--jdbc-schema=&lt;schemaCreateStrategy&gt;])
 JDBC schema creation.
   -h, --help               Show this help message and exit.
       --jdbc               Flag whether to use the JDBC contents storage.
+      --jdbc-fetch-size[=&lt;fetchSize&gt;]
+                           JDBC fetch size, defaults to 100.
       --jdbc-password=&lt;password&gt;
                            JDBC password used to authenticate the database access.
       --jdbc-properties[=&lt;String=String&gt;[,&lt;String=String&gt;...]...]
