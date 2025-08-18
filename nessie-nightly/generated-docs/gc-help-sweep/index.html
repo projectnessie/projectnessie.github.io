@@ -62,7 +62,10 @@ previous run of the mark-live command, must not be used with the in-memory conte
                              For S3:
                              - s3.access-key-id
                              - s3.secret-access-key
-                             - s3.endpoint, if you use an S3 compatible object store like MinIO
+                             For non-AWS S3 you need to specify the endpoint and possibly enable
+                               path-style-access:
+                             - s3.endpoint
+                             - s3.path-style-access=true
 
                              For GCS:
                              - io-impl=org.apache.iceberg.gcp.gcs.GCSFileIO
