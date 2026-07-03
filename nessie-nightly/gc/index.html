@@ -109,6 +109,7 @@ Commands:
                                --jdbc-url=&lt;url&gt; [--jdbc-properties[=&lt;String=String&gt;[,
                                &lt;String=String&gt;...]...]]... [--jdbc-user=&lt;user&gt;]
                                [--jdbc-password=&lt;password&gt;] [--jdbc-fetch-size[=&lt;fetchSize&gt;]]
+                               [--jdbc-pool-max-size=&lt;poolMaxSize&gt;]
                                [--jdbc-schema=&lt;schemaCreateStrategy&gt;]])
 Run identify-live-content phase of Nessie GC, must not be used with the in-memory contents-storage.
   -c, --default-cutoff=&lt;defaultCutoffPolicy&gt;
@@ -143,6 +144,16 @@ Run identify-live-content phase of Nessie GC, must not be used with the in-memor
                              JDBC password used to authenticate the database access.
       --jdbc-password=&lt;password&gt;
                              JDBC password used to authenticate the database access.
+      --jdbc-pool-max-size=&lt;poolMaxSize&gt;
+                             Maximum JDBC connection pool size, defaults to 5. The sweep/expire
+                               phase holds one streaming connection plus one per
+                               --expiry-parallelism worker, so set this to at least
+                               --expiry-parallelism + 1 to avoid connection-acquisition timeouts.
+      --jdbc-pool-max-size=&lt;poolMaxSize&gt;
+                             Maximum JDBC connection pool size, defaults to 5. The sweep/expire
+                               phase holds one streaming connection plus one per
+                               --expiry-parallelism worker, so set this to at least
+                               --expiry-parallelism + 1 to avoid connection-acquisition timeouts.
       --jdbc-properties[=&lt;String=String&gt;[,&lt;String=String&gt;...]...]
                              JDBC parameters.
       --jdbc-properties[=&lt;String=String&gt;[,&lt;String=String&gt;...]...]
@@ -184,6 +195,7 @@ Run identify-live-content phase of Nessie GC, must not be used with the in-memor
                            --jdbc-url=&lt;url&gt; [--jdbc-properties[=&lt;String=String&gt;[,
                            &lt;String=String&gt;...]...]]... [--jdbc-user=&lt;user&gt;]
                            [--jdbc-password=&lt;password&gt;] [--jdbc-fetch-size[=&lt;fetchSize&gt;]]
+                           [--jdbc-pool-max-size=&lt;poolMaxSize&gt;]
                            [--jdbc-schema=&lt;schemaCreateStrategy&gt;]]) (-l=&lt;liveSetId&gt; |
                            -L=&lt;liveSetIdFile&gt;)
 Run expire-files + delete-orphan-files phase of Nessie GC using a live-contents-set stored by a
@@ -266,6 +278,16 @@ previous run of the mark-live command, must not be used with the in-memory conte
                              JDBC password used to authenticate the database access.
       --jdbc-password=&lt;password&gt;
                              JDBC password used to authenticate the database access.
+      --jdbc-pool-max-size=&lt;poolMaxSize&gt;
+                             Maximum JDBC connection pool size, defaults to 5. The sweep/expire
+                               phase holds one streaming connection plus one per
+                               --expiry-parallelism worker, so set this to at least
+                               --expiry-parallelism + 1 to avoid connection-acquisition timeouts.
+      --jdbc-pool-max-size=&lt;poolMaxSize&gt;
+                             Maximum JDBC connection pool size, defaults to 5. The sweep/expire
+                               phase holds one streaming connection plus one per
+                               --expiry-parallelism worker, so set this to at least
+                               --expiry-parallelism + 1 to avoid connection-acquisition timeouts.
       --jdbc-properties[=&lt;String=String&gt;[,&lt;String=String&gt;...]...]
                              JDBC parameters.
       --jdbc-properties[=&lt;String=String&gt;[,&lt;String=String&gt;...]...]
@@ -305,7 +327,8 @@ previous run of the mark-live command, must not be used with the in-memory conte
                         &lt;String=String&gt;...]...]]... ([--inmemory] | [[--jdbc] --jdbc-url=&lt;url&gt;
                         [--jdbc-properties[=&lt;String=String&gt;[,&lt;String=String&gt;...]...]]...
                         [--jdbc-user=&lt;user&gt;] [--jdbc-password=&lt;password&gt;] [--jdbc-fetch-size
-                        [=&lt;fetchSize&gt;]] [--jdbc-schema=&lt;schemaCreateStrategy&gt;]])
+                        [=&lt;fetchSize&gt;]] [--jdbc-pool-max-size=&lt;poolMaxSize&gt;]
+                        [--jdbc-schema=&lt;schemaCreateStrategy&gt;]])
 Run identify-live-content and expire-files + delete-orphan-files.
 This is the same as running a &#39;mark-live&#39; + a &#39;sweep&#39; command, but this variant works with the
 in-memory contents storage.
@@ -404,6 +427,16 @@ in-memory contents storage.
                              JDBC password used to authenticate the database access.
       --jdbc-password=&lt;password&gt;
                              JDBC password used to authenticate the database access.
+      --jdbc-pool-max-size=&lt;poolMaxSize&gt;
+                             Maximum JDBC connection pool size, defaults to 5. The sweep/expire
+                               phase holds one streaming connection plus one per
+                               --expiry-parallelism worker, so set this to at least
+                               --expiry-parallelism + 1 to avoid connection-acquisition timeouts.
+      --jdbc-pool-max-size=&lt;poolMaxSize&gt;
+                             Maximum JDBC connection pool size, defaults to 5. The sweep/expire
+                               phase holds one streaming connection plus one per
+                               --expiry-parallelism worker, so set this to at least
+                               --expiry-parallelism + 1 to avoid connection-acquisition timeouts.
       --jdbc-properties[=&lt;String=String&gt;[,&lt;String=String&gt;...]...]
                              JDBC parameters.
       --jdbc-properties[=&lt;String=String&gt;[,&lt;String=String&gt;...]...]
@@ -442,7 +475,8 @@ in-memory contents storage.
 </code></pre></div> <h3 id=list><code>list</code><a class=headerlink href=#list title="Permanent link">&para;</a></h3> <div class=highlight><pre><span></span><code>Usage: nessie-gc.jar list [-hV] [--time-zone=&lt;zoneId&gt;] ([--inmemory] | [[--jdbc] --jdbc-url=&lt;url&gt;
                           [--jdbc-properties[=&lt;String=String&gt;[,&lt;String=String&gt;...]...]]...
                           [--jdbc-user=&lt;user&gt;] [--jdbc-password=&lt;password&gt;] [--jdbc-fetch-size
-                          [=&lt;fetchSize&gt;]] [--jdbc-schema=&lt;schemaCreateStrategy&gt;]])
+                          [=&lt;fetchSize&gt;]] [--jdbc-pool-max-size=&lt;poolMaxSize&gt;]
+                          [--jdbc-schema=&lt;schemaCreateStrategy&gt;]])
 List existing live-sets, must not be used with the in-memory contents-storage.
   -h, --help                 Show this help message and exit.
       --inmemory             Flag whether to use the in-memory contents storage. Prefer a JDBC
@@ -459,6 +493,16 @@ List existing live-sets, must not be used with the in-memory contents-storage.
                              JDBC password used to authenticate the database access.
       --jdbc-password=&lt;password&gt;
                              JDBC password used to authenticate the database access.
+      --jdbc-pool-max-size=&lt;poolMaxSize&gt;
+                             Maximum JDBC connection pool size, defaults to 5. The sweep/expire
+                               phase holds one streaming connection plus one per
+                               --expiry-parallelism worker, so set this to at least
+                               --expiry-parallelism + 1 to avoid connection-acquisition timeouts.
+      --jdbc-pool-max-size=&lt;poolMaxSize&gt;
+                             Maximum JDBC connection pool size, defaults to 5. The sweep/expire
+                               phase holds one streaming connection plus one per
+                               --expiry-parallelism worker, so set this to at least
+                               --expiry-parallelism + 1 to avoid connection-acquisition timeouts.
       --jdbc-properties[=&lt;String=String&gt;[,&lt;String=String&gt;...]...]
                              JDBC parameters.
       --jdbc-properties[=&lt;String=String&gt;[,&lt;String=String&gt;...]...]
@@ -479,8 +523,9 @@ List existing live-sets, must not be used with the in-memory contents-storage.
 </code></pre></div> <h3 id=delete><code>delete</code><a class=headerlink href=#delete title="Permanent link">&para;</a></h3> <div class=highlight><pre><span></span><code>Usage: nessie-gc.jar delete [-hV] [--time-zone=&lt;zoneId&gt;] ([--inmemory] | [[--jdbc] --jdbc-url=&lt;url&gt;
                             [--jdbc-properties[=&lt;String=String&gt;[,&lt;String=String&gt;...]...]]...
                             [--jdbc-user=&lt;user&gt;] [--jdbc-password=&lt;password&gt;] [--jdbc-fetch-size
-                            [=&lt;fetchSize&gt;]] [--jdbc-schema=&lt;schemaCreateStrategy&gt;]])
-                            (-l=&lt;liveSetId&gt; | -L=&lt;liveSetIdFile&gt;)
+                            [=&lt;fetchSize&gt;]] [--jdbc-pool-max-size=&lt;poolMaxSize&gt;]
+                            [--jdbc-schema=&lt;schemaCreateStrategy&gt;]]) (-l=&lt;liveSetId&gt; |
+                            -L=&lt;liveSetIdFile&gt;)
 Delete a live-set, must not be used with the in-memory contents-storage.
   -h, --help                 Show this help message and exit.
       --inmemory             Flag whether to use the in-memory contents storage. Prefer a JDBC
@@ -497,6 +542,16 @@ Delete a live-set, must not be used with the in-memory contents-storage.
                              JDBC password used to authenticate the database access.
       --jdbc-password=&lt;password&gt;
                              JDBC password used to authenticate the database access.
+      --jdbc-pool-max-size=&lt;poolMaxSize&gt;
+                             Maximum JDBC connection pool size, defaults to 5. The sweep/expire
+                               phase holds one streaming connection plus one per
+                               --expiry-parallelism worker, so set this to at least
+                               --expiry-parallelism + 1 to avoid connection-acquisition timeouts.
+      --jdbc-pool-max-size=&lt;poolMaxSize&gt;
+                             Maximum JDBC connection pool size, defaults to 5. The sweep/expire
+                               phase holds one streaming connection plus one per
+                               --expiry-parallelism worker, so set this to at least
+                               --expiry-parallelism + 1 to avoid connection-acquisition timeouts.
       --jdbc-properties[=&lt;String=String&gt;[,&lt;String=String&gt;...]...]
                              JDBC parameters.
       --jdbc-properties[=&lt;String=String&gt;[,&lt;String=String&gt;...]...]
@@ -522,6 +577,7 @@ Delete a live-set, must not be used with the in-memory contents-storage.
                                    --jdbc-url=&lt;url&gt; [--jdbc-properties[=&lt;String=String&gt;[,
                                    &lt;String=String&gt;...]...]]... [--jdbc-user=&lt;user&gt;]
                                    [--jdbc-password=&lt;password&gt;] [--jdbc-fetch-size[=&lt;fetchSize&gt;]]
+                                   [--jdbc-pool-max-size=&lt;poolMaxSize&gt;]
                                    [--jdbc-schema=&lt;schemaCreateStrategy&gt;]]) (-l=&lt;liveSetId&gt; |
                                    -L=&lt;liveSetIdFile&gt;)
 List files collected as deferred deletes, must not be used with the in-memory contents-storage.
@@ -540,6 +596,16 @@ List files collected as deferred deletes, must not be used with the in-memory co
                              JDBC password used to authenticate the database access.
       --jdbc-password=&lt;password&gt;
                              JDBC password used to authenticate the database access.
+      --jdbc-pool-max-size=&lt;poolMaxSize&gt;
+                             Maximum JDBC connection pool size, defaults to 5. The sweep/expire
+                               phase holds one streaming connection plus one per
+                               --expiry-parallelism worker, so set this to at least
+                               --expiry-parallelism + 1 to avoid connection-acquisition timeouts.
+      --jdbc-pool-max-size=&lt;poolMaxSize&gt;
+                             Maximum JDBC connection pool size, defaults to 5. The sweep/expire
+                               phase holds one streaming connection plus one per
+                               --expiry-parallelism worker, so set this to at least
+                               --expiry-parallelism + 1 to avoid connection-acquisition timeouts.
       --jdbc-properties[=&lt;String=String&gt;[,&lt;String=String&gt;...]...]
                              JDBC parameters.
       --jdbc-properties[=&lt;String=String&gt;[,&lt;String=String&gt;...]...]
@@ -567,8 +633,9 @@ List files collected as deferred deletes, must not be used with the in-memory co
                                       --jdbc-url=&lt;url&gt; [--jdbc-properties[=&lt;String=String&gt;[,
                                       &lt;String=String&gt;...]...]]... [--jdbc-user=&lt;user&gt;]
                                       [--jdbc-password=&lt;password&gt;] [--jdbc-fetch-size
-                                      [=&lt;fetchSize&gt;]] [--jdbc-schema=&lt;schemaCreateStrategy&gt;]])
-                                      (-l=&lt;liveSetId&gt; | -L=&lt;liveSetIdFile&gt;)
+                                      [=&lt;fetchSize&gt;]] [--jdbc-pool-max-size=&lt;poolMaxSize&gt;]
+                                      [--jdbc-schema=&lt;schemaCreateStrategy&gt;]]) (-l=&lt;liveSetId&gt; |
+                                      -L=&lt;liveSetIdFile&gt;)
 Delete files collected as deferred deletes, must not be used with the in-memory contents-storage.
   -h, --help                 Show this help message and exit.
   -H, --hadoop=&lt;String=String&gt;[,&lt;String=String&gt;...]
@@ -633,6 +700,16 @@ Delete files collected as deferred deletes, must not be used with the in-memory 
                              JDBC password used to authenticate the database access.
       --jdbc-password=&lt;password&gt;
                              JDBC password used to authenticate the database access.
+      --jdbc-pool-max-size=&lt;poolMaxSize&gt;
+                             Maximum JDBC connection pool size, defaults to 5. The sweep/expire
+                               phase holds one streaming connection plus one per
+                               --expiry-parallelism worker, so set this to at least
+                               --expiry-parallelism + 1 to avoid connection-acquisition timeouts.
+      --jdbc-pool-max-size=&lt;poolMaxSize&gt;
+                             Maximum JDBC connection pool size, defaults to 5. The sweep/expire
+                               phase holds one streaming connection plus one per
+                               --expiry-parallelism worker, so set this to at least
+                               --expiry-parallelism + 1 to avoid connection-acquisition timeouts.
       --jdbc-properties[=&lt;String=String&gt;[,&lt;String=String&gt;...]...]
                              JDBC parameters.
       --jdbc-properties[=&lt;String=String&gt;[,&lt;String=String&gt;...]...]
@@ -658,6 +735,7 @@ Delete files collected as deferred deletes, must not be used with the in-memory 
                           --jdbc-url=&lt;url&gt; [--jdbc-properties[=&lt;String=String&gt;[,
                           &lt;String=String&gt;...]...]]... [--jdbc-user=&lt;user&gt;]
                           [--jdbc-password=&lt;password&gt;] [--jdbc-fetch-size[=&lt;fetchSize&gt;]]
+                          [--jdbc-pool-max-size=&lt;poolMaxSize&gt;]
                           [--jdbc-schema=&lt;schemaCreateStrategy&gt;]]) (-l=&lt;liveSetId&gt; |
                           -L=&lt;liveSetIdFile&gt;)
 Show information of a live-content-set, must not be used with the in-memory contents-storage.
@@ -681,6 +759,16 @@ Show information of a live-content-set, must not be used with the in-memory cont
                              JDBC password used to authenticate the database access.
       --jdbc-password=&lt;password&gt;
                              JDBC password used to authenticate the database access.
+      --jdbc-pool-max-size=&lt;poolMaxSize&gt;
+                             Maximum JDBC connection pool size, defaults to 5. The sweep/expire
+                               phase holds one streaming connection plus one per
+                               --expiry-parallelism worker, so set this to at least
+                               --expiry-parallelism + 1 to avoid connection-acquisition timeouts.
+      --jdbc-pool-max-size=&lt;poolMaxSize&gt;
+                             Maximum JDBC connection pool size, defaults to 5. The sweep/expire
+                               phase holds one streaming connection plus one per
+                               --expiry-parallelism worker, so set this to at least
+                               --expiry-parallelism + 1 to avoid connection-acquisition timeouts.
       --jdbc-properties[=&lt;String=String&gt;[,&lt;String=String&gt;...]...]
                              JDBC parameters.
       --jdbc-properties[=&lt;String=String&gt;[,&lt;String=String&gt;...]...]
@@ -712,6 +800,7 @@ Print DDL statements to create the schema.
                                        [=&lt;String=String&gt;[,&lt;String=String&gt;...]...]]...
                                        [--jdbc-user=&lt;user&gt;] [--jdbc-password=&lt;password&gt;]
                                        [--jdbc-fetch-size[=&lt;fetchSize&gt;]]
+                                       [--jdbc-pool-max-size=&lt;poolMaxSize&gt;]
                                        [--jdbc-schema=&lt;schemaCreateStrategy&gt;])
 JDBC schema creation.
   -h, --help               Show this help message and exit.
@@ -720,6 +809,11 @@ JDBC schema creation.
                            JDBC fetch size, defaults to 100.
       --jdbc-password=&lt;password&gt;
                            JDBC password used to authenticate the database access.
+      --jdbc-pool-max-size=&lt;poolMaxSize&gt;
+                           Maximum JDBC connection pool size, defaults to 5. The sweep/expire phase
+                             holds one streaming connection plus one per --expiry-parallelism
+                             worker, so set this to at least --expiry-parallelism + 1 to avoid
+                             connection-acquisition timeouts.
       --jdbc-properties[=&lt;String=String&gt;[,&lt;String=String&gt;...]...]
                            JDBC parameters.
       --jdbc-schema=&lt;schemaCreateStrategy&gt;

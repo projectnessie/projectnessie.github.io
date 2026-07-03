@@ -8,6 +8,7 @@
                                --jdbc-url=&lt;url&gt; [--jdbc-properties[=&lt;String=String&gt;[,
                                &lt;String=String&gt;...]...]]... [--jdbc-user=&lt;user&gt;]
                                [--jdbc-password=&lt;password&gt;] [--jdbc-fetch-size[=&lt;fetchSize&gt;]]
+                               [--jdbc-pool-max-size=&lt;poolMaxSize&gt;]
                                [--jdbc-schema=&lt;schemaCreateStrategy&gt;]])
 Run identify-live-content phase of Nessie GC, must not be used with the in-memory contents-storage.
   -c, --default-cutoff=&lt;defaultCutoffPolicy&gt;
@@ -42,6 +43,16 @@ Run identify-live-content phase of Nessie GC, must not be used with the in-memor
                              JDBC password used to authenticate the database access.
       --jdbc-password=&lt;password&gt;
                              JDBC password used to authenticate the database access.
+      --jdbc-pool-max-size=&lt;poolMaxSize&gt;
+                             Maximum JDBC connection pool size, defaults to 5. The sweep/expire
+                               phase holds one streaming connection plus one per
+                               --expiry-parallelism worker, so set this to at least
+                               --expiry-parallelism + 1 to avoid connection-acquisition timeouts.
+      --jdbc-pool-max-size=&lt;poolMaxSize&gt;
+                             Maximum JDBC connection pool size, defaults to 5. The sweep/expire
+                               phase holds one streaming connection plus one per
+                               --expiry-parallelism worker, so set this to at least
+                               --expiry-parallelism + 1 to avoid connection-acquisition timeouts.
       --jdbc-properties[=&lt;String=String&gt;[,&lt;String=String&gt;...]...]
                              JDBC parameters.
       --jdbc-properties[=&lt;String=String&gt;[,&lt;String=String&gt;...]...]
