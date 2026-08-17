@@ -6,7 +6,7 @@
 <span class=w>  </span>-Dquarkus.mongodb.connection-string<span class=o>=</span>mongodb://&lt;user&gt;:&lt;password&gt;@nessie.example.com:27017<span class=w> </span><span class=se>\</span>
 <span class=w>  </span>-jar<span class=w>  </span>nessie-server-admin-tool-0.108.4-runner.jar<span class=w> </span><span class=se>\</span>
 <span class=w>  </span><span class=nb>export</span><span class=w> </span><span class=se>\</span>
-<span class=w>  </span>--path<span class=w> </span><span class=s2>&quot;/tmp/export-</span><span class=k>$(</span>date<span class=w> </span>+<span class=s1>&#39;%Y-%d-%m&#39;</span><span class=k>)</span><span class=s2>.zip&quot;</span><span class=w> </span><span class=se>\</span>
+<span class=w>  </span>--path<span class=w> </span><span class=s2>"/tmp/export-</span><span class=k>$(</span>date<span class=w> </span>+<span class=s1>'%Y-%d-%m'</span><span class=k>)</span><span class=s2>.zip"</span><span class=w> </span><span class=se>\</span>
 <span class=w>  </span>--commit-batch-size<span class=w> </span><span class=m>1000</span>
 </code></pre></div> </div> <div class=tabbed-block> <p>The Docker image is available for Nessie Server admin tool since version 0.83.1.</p> <p>With the below settings, the export file(s) are going to be placed in a directory named <code>export-data</code>, which is mapped as <code>/data</code> in the Docker container.</p> <div class=highlight><pre><span></span><code>mkdir<span class=w> </span>-p<span class=w> </span>export-data
 
@@ -17,7 +17,7 @@ docker<span class=w> </span>run<span class=w> </span>--rm<span class=w> </span>-
 <span class=w>  </span>-e<span class=w> </span>quarkus.mongodb.connection-string<span class=o>=</span>mongodb://&lt;user&gt;:&lt;password&gt;@nessie.example.com:27017<span class=w> </span><span class=se>\</span>
 <span class=w>  </span>ghcr.io/projectnessie/nessie-server-admin:0.108.4<span class=w> </span><span class=se>\</span>
 <span class=w>  </span><span class=nb>export</span><span class=w> </span><span class=se>\</span>
-<span class=w>  </span>--path<span class=w> </span><span class=s2>&quot;/data/export-</span><span class=k>$(</span>date<span class=w> </span>+<span class=s1>&#39;%Y-%d-%m&#39;</span><span class=k>)</span><span class=s2>.zip&quot;</span><span class=w> </span><span class=se>\</span>
+<span class=w>  </span>--path<span class=w> </span><span class=s2>"/data/export-</span><span class=k>$(</span>date<span class=w> </span>+<span class=s1>'%Y-%d-%m'</span><span class=k>)</span><span class=s2>.zip"</span><span class=w> </span><span class=se>\</span>
 <span class=w>  </span>--commit-batch-size<span class=w> </span><span class=m>1000</span>
 </code></pre></div> </div> </div> </div> <p>The <code>--commit-batch-size</code> option generally improves performance, but is not required.</p> <p>The export process will take some time, depending on the size of the Nessie repository. You should see something like this:</p> <div class=highlight><pre><span></span><code>Exporting from a MONGO version store...
 Exporting commits...
@@ -36,7 +36,7 @@ Exported Nessie repository, 100 commits into 1 files, 1 named references into 1 
 <span class=w>  </span>-Dquarkus.mongodb.connection-string<span class=o>=</span>mongodb://nessie.example.com:27017<span class=w> </span><span class=se>\</span>
 <span class=w>  </span>-jar<span class=w> </span>nessie-server-admin-tool-0.108.4-runner.jar<span class=w> </span><span class=se>\</span>
 <span class=w>  </span>import<span class=w> </span><span class=se>\</span>
-<span class=w>  </span>--path<span class=w> </span><span class=s2>&quot;/tmp/export-</span><span class=k>$(</span>date<span class=w> </span>+<span class=s1>&#39;%Y-%d-%m&#39;</span><span class=k>)</span><span class=s2>.zip&quot;</span><span class=w> </span><span class=se>\</span>
+<span class=w>  </span>--path<span class=w> </span><span class=s2>"/tmp/export-</span><span class=k>$(</span>date<span class=w> </span>+<span class=s1>'%Y-%d-%m'</span><span class=k>)</span><span class=s2>.zip"</span><span class=w> </span><span class=se>\</span>
 <span class=w>  </span>--commit-batch-size<span class=w> </span><span class=m>1000</span>
 </code></pre></div> </div> <div class=tabbed-block> <p>The Docker image is available for Nessie Server admin tool since version 0.83.1.</p> <p>With the below settings, the export file(s) are expected to be in a directory named <code>export-data</code>, which is mapped as <code>/data</code> in the Docker container. See the <a href=#export>Export</a> section above.</p> <div class=highlight><pre><span></span><code>docker<span class=w> </span>run<span class=w> </span>--rm<span class=w> </span>-ti<span class=w> </span><span class=se>\</span>
 <span class=w>  </span>--volume<span class=w> </span>./export-data:/data<span class=w> </span><span class=se>\</span>
@@ -45,7 +45,7 @@ Exported Nessie repository, 100 commits into 1 files, 1 named references into 1 
 <span class=w>  </span>-e<span class=w> </span>quarkus.mongodb.connection-string<span class=o>=</span>mongodb://&lt;user&gt;:&lt;password&gt;@nessie.example.com:27017<span class=w> </span><span class=se>\</span>
 <span class=w>  </span>ghcr.io/projectnessie/nessie-server-admin:0.108.4<span class=w> </span><span class=se>\</span>
 <span class=w>  </span>import<span class=w> </span><span class=se>\</span>
-<span class=w>  </span>--path<span class=w> </span><span class=s2>&quot;/data/export-</span><span class=k>$(</span>date<span class=w> </span>+<span class=s1>&#39;%Y-%d-%m&#39;</span><span class=k>)</span><span class=s2>.zip&quot;</span><span class=w> </span><span class=se>\</span>
+<span class=w>  </span>--path<span class=w> </span><span class=s2>"/data/export-</span><span class=k>$(</span>date<span class=w> </span>+<span class=s1>'%Y-%d-%m'</span><span class=k>)</span><span class=s2>.zip"</span><span class=w> </span><span class=se>\</span>
 <span class=w>  </span>--commit-batch-size<span class=w> </span><span class=m>1000</span>
 </code></pre></div> </div> </div> </div> <p>The <code>--commit-batch-size</code> option generally improves performance, but is not required.</p> <p>The import process will take some time, depending on the size of the Nessie repository. You should see something like this:</p> <div class=highlight><pre><span></span><code>Importing into a MONGODB version store...
 Export was created by Nessie version 0.71.0 on 2023-12-27T11:50:10.547Z, containing 1 named references (in 1 files) and 100 commits (in 1 files).

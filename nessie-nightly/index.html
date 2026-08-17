@@ -31,8 +31,8 @@ docker<span class=w> </span>run<span class=w> </span>quay.io/projectnessie/nessi
 <span class=w>  </span><span class=n>repositories</span><span class=w> </span><span class=p>{</span>
 <span class=w>    </span><span class=n>mavenCentral</span><span class=p>()</span>
 <span class=w>    </span><span class=n>maven</span><span class=w> </span><span class=p>{</span>
-<span class=w>      </span><span class=n>name</span><span class=w> </span><span class=o>=</span><span class=w> </span><span class=s>&quot;Apache Snapshots&quot;</span>
-<span class=w>      </span><span class=n>url</span><span class=w> </span><span class=o>=</span><span class=w> </span><span class=n>URI</span><span class=p>(</span><span class=s>&quot;https://oss.sonatype.org/content/repositories/snapshots&quot;</span><span class=p>)</span>
+<span class=w>      </span><span class=n>name</span><span class=w> </span><span class=o>=</span><span class=w> </span><span class=s>"Apache Snapshots"</span>
+<span class=w>      </span><span class=n>url</span><span class=w> </span><span class=o>=</span><span class=w> </span><span class=n>URI</span><span class=p>(</span><span class=s>"https://oss.sonatype.org/content/repositories/snapshots"</span><span class=p>)</span>
 <span class=w>      </span><span class=n>mavenContent</span><span class=w> </span><span class=p>{</span><span class=w> </span><span class=n>snapshotsOnly</span><span class=p>()</span><span class=w> </span><span class=p>}</span>
 <span class=w>      </span><span class=n>metadataSources</span><span class=w> </span><span class=p>{</span>
 <span class=w>        </span><span class=c1>// Workaround for</span>
@@ -61,11 +61,11 @@ docker<span class=w> </span>run<span class=w> </span>quay.io/projectnessie/nessi
 <span class=w>  </span><span class=nt>&lt;/dependency&gt;</span>
 <span class=nt>&lt;/dependencies&gt;</span>
 </code></pre></div></p> </div> <div class=tabbed-block> <p>In your Gradle project&rsquo;s <code>build.gradle.kts</code> add the Nessie BOM as an enforced platform: <div class=highlight><pre><span></span><code><span class=n>dependencies</span><span class=w> </span><span class=p>{</span>
-<span class=w>  </span><span class=n>enforcedPlatform</span><span class=p>(</span><span class=s>&quot;org.projectnessie.nessie:nessie-bom:0.108.5-SNAPSHOT&quot;</span><span class=p>)</span>
+<span class=w>  </span><span class=n>enforcedPlatform</span><span class=p>(</span><span class=s>"org.projectnessie.nessie:nessie-bom:0.108.5-SNAPSHOT"</span><span class=p>)</span>
 <span class=p>}</span>
 </code></pre></div> A full example using the <code>nessie-client</code> artifact: <div class=highlight><pre><span></span><code><span class=n>dependencies</span><span class=w> </span><span class=p>{</span>
-<span class=w>  </span><span class=n>enforcedPlatform</span><span class=p>(</span><span class=s>&quot;org.projectnessie.nessie:nessie-bom:0.108.5-SNAPSHOT&quot;</span><span class=p>)</span>
-<span class=w>  </span><span class=n>implementation</span><span class=p>(</span><span class=s>&quot;org.projectnessie.nessie:nessie-client&quot;</span><span class=p>)</span>
+<span class=w>  </span><span class=n>enforcedPlatform</span><span class=p>(</span><span class=s>"org.projectnessie.nessie:nessie-bom:0.108.5-SNAPSHOT"</span><span class=p>)</span>
+<span class=w>  </span><span class=n>implementation</span><span class=p>(</span><span class=s>"org.projectnessie.nessie:nessie-client"</span><span class=p>)</span>
 <span class=p>}</span>
 </code></pre></div></p> </div> </div> </div> </article> </div> <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script> <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script> </div> <button type=button class="md-top md-icon" data-md-component=top hidden> <svg xmlns=http://www.w3.org/2000/svg viewbox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg> Back to top </button> </main> <!--
   Copyright (c) 2016-2020 Martin Donath <martin.donath@squidfunk.com>

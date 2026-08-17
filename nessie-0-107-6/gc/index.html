@@ -64,11 +64,11 @@ Commands:
 <span class=s>          - http://nessie:19120/api/v2</span>
 <span class=s>          - --jdbc</span>
 <span class=s>          - --jdbc-url</span>
-<span class=s>          - &quot;\$(JDBC_URL)&quot;</span>
+<span class=s>          - "\$(JDBC_URL)"</span>
 <span class=s>          - --jdbc-user</span>
-<span class=s>          - &quot;\$(JDBC_USER)&quot;</span>
+<span class=s>          - "\$(JDBC_USER)"</span>
 <span class=s>          - --jdbc-password</span>
-<span class=s>          - &quot;\$(JDBC_PASSWORD)&quot;</span>
+<span class=s>          - "\$(JDBC_PASSWORD)"</span>
 <span class=s>        envFrom:</span>
 <span class=s>        - secretRef:</span>
 <span class=s>            name: nessie-gc-credentials</span>
@@ -116,7 +116,7 @@ Run identify-live-content phase of Nessie GC, must not be used with the in-memor
                              - number of commits as an integer value
                              - a duration (see java.time.Duration)
                              - an ISO instant
-                             - &#39;NONE&#39;, means everything&#39;s considered as live
+                             - 'NONE', means everything's considered as live
   -C, --cutoff[=&lt;String=String&gt;[,&lt;String=String&gt;...]...]
                              Cutoff policies per reference names. Supplied as a
                                ref-name-pattern=policy tuple.
@@ -125,7 +125,7 @@ Run identify-live-content phase of Nessie GC, must not be used with the in-memor
                              - number of commits as an integer value
                              - a duration (see java.time.Duration)
                              - an ISO instant
-                             - &#39;NONE&#39;, means everything&#39;s considered as live
+                             - 'NONE', means everything's considered as live
   -h, --help                 Show this help message and exit.
       --identify-parallelism=&lt;parallelism&gt;
                              Number of Nessie references that can be walked in parallel.
@@ -167,7 +167,7 @@ Run identify-live-content phase of Nessie GC, must not be used with the in-memor
                              Parameters to configure the NessieClientBuilder.
   -R, --cutoff-ref-time=&lt;cutoffPolicyRefTime&gt;
                              Reference timestamp for durations specified for --cutoff. Defaults to
-                               &#39;now&#39;.
+                               'now'.
       --time-zone=&lt;zoneId&gt;   Time zone ID used to show timestamps.
                              Defaults to system time zone.
   -u, --uri=&lt;nessieUri&gt;      Nessie API endpoint URI, defaults to http://localhost:19120/api/v2.
@@ -307,7 +307,7 @@ previous run of the mark-live command, must not be used with the in-memory conte
                         [--jdbc-user=&lt;user&gt;] [--jdbc-password=&lt;password&gt;] [--jdbc-fetch-size
                         [=&lt;fetchSize&gt;]] [--jdbc-schema=&lt;schemaCreateStrategy&gt;]])
 Run identify-live-content and expire-files + delete-orphan-files.
-This is the same as running a &#39;mark-live&#39; + a &#39;sweep&#39; command, but this variant works with the
+This is the same as running a 'mark-live' + a 'sweep' command, but this variant works with the
 in-memory contents storage.
       --allowed-fpp=&lt;allowedFalsePositiveProbability&gt;
                              The worst allowed effective false-positive-probability checked after
@@ -317,7 +317,7 @@ in-memory contents storage.
                              - number of commits as an integer value
                              - a duration (see java.time.Duration)
                              - an ISO instant
-                             - &#39;NONE&#39;, means everything&#39;s considered as live
+                             - 'NONE', means everything's considered as live
   -C, --cutoff[=&lt;String=String&gt;[,&lt;String=String&gt;...]...]
                              Cutoff policies per reference names. Supplied as a
                                ref-name-pattern=policy tuple.
@@ -326,7 +326,7 @@ in-memory contents storage.
                              - number of commits as an integer value
                              - a duration (see java.time.Duration)
                              - an ISO instant
-                             - &#39;NONE&#39;, means everything&#39;s considered as live
+                             - 'NONE', means everything's considered as live
       --[no-]defer-deletes   Identified unused/orphan files are by default immediately deleted.
                                Using deferred deletion stores the files to be deleted, so the can
                                be inspected and deleted later. This option is incompatible with
@@ -432,7 +432,7 @@ in-memory contents storage.
                              Parameters to configure the NessieClientBuilder.
   -R, --cutoff-ref-time=&lt;cutoffPolicyRefTime&gt;
                              Reference timestamp for durations specified for --cutoff. Defaults to
-                               &#39;now&#39;.
+                               'now'.
       --time-zone=&lt;zoneId&gt;   Time zone ID used to show timestamps.
                              Defaults to system time zone.
   -u, --uri=&lt;nessieUri&gt;      Nessie API endpoint URI, defaults to http://localhost:19120/api/v2.

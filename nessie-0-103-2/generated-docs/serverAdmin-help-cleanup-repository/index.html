@@ -9,7 +9,7 @@
        [--recent-objs-ids-filter-size=&lt;recentObjIdsFilterSize&gt;]
        [--referenced-grace=&lt;objReferencedGrace&gt;]
        [--scan-obj-rate=&lt;purgeScanObjRatePerSecond&gt;]
-Cleanup unreferenced data from Nessie&#39;s repository.
+Cleanup unreferenced data from Nessie's repository.
 This is a two-phase implementation that first identifies the objects that are
 referenced and the second phase scans the whole repository and deletes objects
 that are unreferenced.
@@ -35,7 +35,7 @@ to perform all operations except deleting objects.
                   Maximum allowed false-positive-probability to detect
                     referenced objects, defaults to 1.0E-4.
       --commit-rate=&lt;resolveCommitRatePerSecond&gt;
-                  Allowed number of commits to process during the &#39;resolve&#39;
+                  Allowed number of commits to process during the 'resolve'
                     phase per second. Default is unlimited.
       --dry-run   Perform all operations, but do not delete any object .
       --fpp=&lt;falsePositiveProbability&gt;
@@ -45,12 +45,12 @@ to perform all operations except deleting objects.
       --obj-count=&lt;expectedObjCount&gt;
                   Number of expected objects, defaults to 1000000.
       --obj-rate=&lt;resolveObjRatePerSecond&gt;
-                  Allowed number of objects to process during the &#39;resolve&#39;
+                  Allowed number of objects to process during the 'resolve'
                     phase per second. Default is unlimited.
       --pending-objs-batch-size=&lt;pendingObjsBatchSize&gt;
 
       --purge-obj-rate=&lt;purgeDeleteObjRatePerSecond&gt;
-                  Allowed number of objects to delete during the &#39;purge&#39; phase
+                  Allowed number of objects to delete during the 'purge' phase
                     per second. Default is unlimited.
       --recent-objs-ids-filter-size=&lt;recentObjIdsFilterSize&gt;
                   Size of the filter to recognize recently processed objects.
@@ -58,11 +58,11 @@ to perform all operations except deleting objects.
                     reasonable number. Defaults to 100000.
       --referenced-grace=&lt;objReferencedGrace&gt;
                   Grace-time for newly created objects to not be deleted.
-                    Default is just &quot;now&quot;. Specified using the ISO-8601 format,
+                    Default is just "now". Specified using the ISO-8601 format,
                     for example P1D (24 hours) or PT2H (2 hours) or P10D12H (10
                     * 24 + 10 hours).
       --scan-obj-rate=&lt;purgeScanObjRatePerSecond&gt;
-                  Allowed number of objects to scan during the &#39;purge&#39; phase
+                  Allowed number of objects to scan during the 'purge' phase
                     per second. Default is unlimited.
   -V, --version   Print version information and exit.
 </code></pre></div> </article> </div> <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script> <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script> </div> <button type=button class="md-top md-icon" data-md-component=top hidden> <svg xmlns=http://www.w3.org/2000/svg viewbox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg> Back to top </button> </main> <!--

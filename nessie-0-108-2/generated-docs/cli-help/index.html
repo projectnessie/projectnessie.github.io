@@ -48,7 +48,7 @@ Statements to execute before or without running the REPL
                               --continue-on-error option.
   -s, --run-script=&lt;scriptFile&gt;
                             Run the commands in the Nessie CLI script referenced by this option.
-                            Possible values are either a file path or use the minus character (&#39;-&#39;)
+                            Possible values are either a file path or use the minus character ('-')
                               to read the script from stdin.
 
 Connect options
@@ -58,14 +58,14 @@ Connect options
                             Name of the client implementation to use, defaults to HTTP suitable for
                               Nessie REST API.
                             See https://projectnessie.org/nessie-latest/client_config/ for the
-                              &#39;nessie.client-builder-name&#39; option.
+                              'nessie.client-builder-name' option.
   -o, --client-option[=&lt;String=String&gt;[,&lt;String=String&gt;...]...]
                             Parameters to configure the REST client.
                             See https://projectnessie.org/nessie-latest/client_config/
   -r, --initial-reference=&lt;initialReference&gt;
                             Name of the Nessie reference to use.
   -u, --uri=&lt;uri&gt;           REST API endpoint URI to connect to.
-                            See &#39;HELP CONNECT&#39; in the REPL.
+                            See 'HELP CONNECT' in the REPL.
 </code></pre></div> </article> </div> <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script> <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script> </div> <button type=button class="md-top md-icon" data-md-component=top hidden> <svg xmlns=http://www.w3.org/2000/svg viewbox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg> Back to top </button> </main> <!--
   Copyright (c) 2016-2020 Martin Donath <martin.donath@squidfunk.com>
 

@@ -6,18 +6,18 @@
 <span class=w>  </span><span class=nt>quarkus</span><span class=p>:</span>
 <span class=w>    </span><span class=nt>http</span><span class=p>:</span>
 <span class=w>      </span><span class=nt>proxy</span><span class=p>:</span>
-<span class=w>        </span><span class=nt>proxy-address-forwarding</span><span class=p>:</span><span class=w> </span><span class=s>&quot;true&quot;</span>
-<span class=w>        </span><span class=nt>allow-x-forwarded</span><span class=p>:</span><span class=w> </span><span class=s>&quot;true&quot;</span>
-<span class=w>        </span><span class=nt>enable-forwarded-host</span><span class=p>:</span><span class=w> </span><span class=s>&quot;true&quot;</span>
-<span class=w>        </span><span class=nt>enable-forwarded-prefix</span><span class=p>:</span><span class=w> </span><span class=s>&quot;true&quot;</span>
+<span class=w>        </span><span class=nt>proxy-address-forwarding</span><span class=p>:</span><span class=w> </span><span class=s>"true"</span>
+<span class=w>        </span><span class=nt>allow-x-forwarded</span><span class=p>:</span><span class=w> </span><span class=s>"true"</span>
+<span class=w>        </span><span class=nt>enable-forwarded-host</span><span class=p>:</span><span class=w> </span><span class=s>"true"</span>
+<span class=w>        </span><span class=nt>enable-forwarded-prefix</span><span class=p>:</span><span class=w> </span><span class=s>"true"</span>
 </code></pre></div> </div> </div> </div> <div class="admonition warn"> <p class=admonition-title>Warn</p> <p>Do NOT enable the above options unless your reverse proxy (for example istio or nginx) is properly setup to set these headers but also filter those from incoming requests.</p> </div> <div class="admonition info"> <p class=admonition-title>Info</p> <p>The newer <code>Forwarded</code> header is the newer version of the older <code>X-Forwarded-For</code>, <code>X-Forwarded-Host</code>, <code>X-Forwarded-Proto</code> headers, but does <em>not</em> provide a replacement for the <code>X-Forwarded-Prefix</code> header, which is needed in some scenarios.</p> </div> <h2 id=using-path-prefixes-on-the-ingress-reverse-proxy>Using path prefixes on the ingress / reverse proxy<a class=headerlink href=#using-path-prefixes-on-the-ingress-reverse-proxy title="Permanent link">&para;</a></h2> <p>Usually, all HTTP requests to the reverse proxy are passed down to Nessie. If only requests that start with for example <code>/nessie/</code> to be proxied to Nessie, then the reverse proxy needs to be configured to also pass the <code>X-Forwarded-Prefix</code> with the that prefix and Quarkus must be configured to respect the <code>X-Forwarded-Prefix</code> header using the <code>quarkus.http.proxy.enable-forwarded-prefix=true</code> configuration.</p> <h2 id=verifying-the-reverse-proxy-configuration>Verifying the reverse proxy configuration<a class=headerlink href=#verifying-the-reverse-proxy-configuration title="Permanent link">&para;</a></h2> <p>Nessie returns URLs via the Iceberg REST config endpoint and in the returned table/view metadata. These URLs are used by Iceberg clients to issue follow-up requests.</p> <p>Assuming the setup of the below Docker Compose example, issue the following <code>curl</code> command against your ingress (reverse proxy).</p> <div class=highlight><pre><span></span><code>curl<span class=w> </span>https://nessie-nginx.localhost.localdomain:8443/nessie/iceberg/v1/config
 </code></pre></div> <p>It should yield the configuration. Look for the <code>nessie.iceberg-base-uri</code> property: <div class=highlight><pre><span></span><code><span class=p>{</span>
-<span class=w>  </span><span class=nv>&quot;defaults&quot;</span><span class=p>:</span><span class=w> </span><span class=p>{</span>
+<span class=w>  </span><span class=nv>"defaults"</span><span class=p>:</span><span class=w> </span><span class=p>{</span>
 <span class=w>    </span><span class=c1>// ...</span>
 <span class=w>  </span><span class=p>},</span>
-<span class=w>  </span><span class=nv>&quot;overrides&quot;</span><span class=p>:</span><span class=w> </span><span class=p>{</span>
+<span class=w>  </span><span class=nv>"overrides"</span><span class=p>:</span><span class=w> </span><span class=p>{</span>
 <span class=w>    </span><span class=c1>// ...</span>
-<span class=w>    </span><span class=nv>&quot;nessie.iceberg-base-uri&quot;</span><span class=p>:</span><span class=w> </span><span class=s>&quot;https://nessie-nginx.localhost.localdomain:8443/nessie/iceberg/&quot;</span>
+<span class=w>    </span><span class=nv>"nessie.iceberg-base-uri"</span><span class=p>:</span><span class=w> </span><span class=s>"https://nessie-nginx.localhost.localdomain:8443/nessie/iceberg/"</span>
 <span class=w>    </span><span class=c1>// ...</span>
 <span class=w>  </span><span class=p>}</span>
 <span class=p>}</span>
@@ -43,8 +43,8 @@
 <span class=w>    </span><span class=nb>ssl_ciphers</span><span class=w> </span>HIGH:!aNULL:!MD5;
 
 <span class=w>    </span><span class=c># This example uses /nessie/ as the path-prefix. It is not mandatory to do this.</span>
-<span class=w>    </span><span class=c># To use no prefix and route all requests to Nessie, set &#39;/&#39; as the &#39;location&#39; and</span>
-<span class=w>    </span><span class=c># remove the &#39;proxy_set_header X-Forwarded-Prefix&#39; line.</span>
+<span class=w>    </span><span class=c># To use no prefix and route all requests to Nessie, set '/' as the 'location' and</span>
+<span class=w>    </span><span class=c># remove the 'proxy_set_header X-Forwarded-Prefix' line.</span>
 <span class=w>    </span><span class=nb>location</span><span class=w> </span><span class=sx>/nessie/</span><span class=w> </span>{
 <span class=w>      </span><span class=nb>proxy_buffering</span><span class=w> </span><span class=k>off</span>;
 <span class=w>      </span><span class=c># The X-Forwarded-* headers needed by Quarkus</span>

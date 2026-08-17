@@ -14,8 +14,8 @@ software.amazon.awssdk:url-connection-client:2.20.131<span class=w> </span><span
 <span class=w> </span>--conf<span class=w> </span>spark.sql.catalog.nessie.ref<span class=o>=</span>main<span class=w> </span><span class=se>\</span>
 <span class=w> </span>--conf<span class=w> </span>spark.sql.catalog.nessie.cache-enabled<span class=o>=</span><span class=nb>false</span>
 </code></pre></div> <p>Note: <code>spark-demo1</code> is the name of the S3 bucket that will hold table data files.</p> <p>Note: the <code>--packages</code> option lists modules required for Iceberg to write data files into S3. Please refer to <a href="https://iceberg.apache.org/docs/latest/aws/#iceberg-aws-integrations">Iceberg documentation</a> for the most up-to-date information on how to connect Iceberg to S3.</p> <p>Note: the word <code>nessie</code> in configuration property names is the name of the Nessie catalog in the Spark session. A different name can be chosen according the user&rsquo;s liking.</p> <h2 id=setting-up-spark-session-for-minio>Setting up Spark Session for Minio<a class=headerlink href=#setting-up-spark-session-for-minio title="Permanent link">&para;</a></h2> <p>Using Minio is mostly the same as using Amazon S3 except that the S3 endpoint and credentials are different.</p> <p>For this example, start a local Minio server using Docker:</p> <div class=highlight><pre><span></span><code>docker<span class=w> </span>run<span class=w> </span>-p<span class=w> </span><span class=m>9000</span>:9000<span class=w> </span>-p<span class=w> </span><span class=m>9001</span>:9001<span class=w> </span>--name<span class=w> </span>minio<span class=w> </span><span class=se>\</span>
-<span class=w> </span>-e<span class=w> </span><span class=s2>&quot;MINIO_ROOT_USER=datauser&quot;</span><span class=w> </span>-e<span class=w> </span><span class=s2>&quot;MINIO_ROOT_PASSWORD=minioSecret&quot;</span><span class=w> </span><span class=se>\</span>
-<span class=w> </span>quay.io/minio/minio:latest<span class=w> </span>server<span class=w> </span>/data<span class=w> </span>--console-address<span class=w> </span><span class=s2>&quot;:9001&quot;</span>
+<span class=w> </span>-e<span class=w> </span><span class=s2>"MINIO_ROOT_USER=datauser"</span><span class=w> </span>-e<span class=w> </span><span class=s2>"MINIO_ROOT_PASSWORD=minioSecret"</span><span class=w> </span><span class=se>\</span>
+<span class=w> </span>quay.io/minio/minio:latest<span class=w> </span>server<span class=w> </span>/data<span class=w> </span>--console-address<span class=w> </span><span class=s2>":9001"</span>
 </code></pre></div> <p>Configure AWS SDK crendetials the same way you would configure them for Amazon S3 (refer to the section above) but use relevant Minio credentials. In this example the credentials for the Minio server running in Docker are: <code>aws_access_key_id = datauser</code>, <code>aws_secret_access_key = minioSecret</code>. Assuming the credentials are stored in an AWS profile named <code>demo</code>, export the profile name in the <code>AWS_PROFILE</code> environment variable. For example:</p> <div class=highlight><pre><span></span><code><span class=nb>export</span><span class=w> </span><span class=nv>AWS_PROFILE</span><span class=o>=</span>demo
 </code></pre></div> <p>Create a Minio bucket of your own. This guide uses the bucket name <code>spark1</code>.</p> <p>Start a Spark session:</p> <div class=highlight><pre><span></span><code>spark-sql<span class=w> </span><span class=se>\</span>
 <span class=w> </span>--packages<span class=w> </span><span class=se>\</span>
@@ -37,7 +37,7 @@ Time taken: 1.615 seconds
 spark-sql&gt; show tables;
 demo
 Time taken: 0.425 seconds, Fetched 1 row(s)
-spark-sql&gt; INSERT INTO demo (id, data) VALUES (1, &#39;a&#39;);
+spark-sql&gt; INSERT INTO demo (id, data) VALUES (1, 'a');
 Time taken: 4.017 seconds
 spark-sql&gt; SELECT * FROM demo;
 1   a

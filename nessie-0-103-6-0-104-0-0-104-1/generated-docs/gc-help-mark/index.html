@@ -14,7 +14,7 @@ Run identify-live-content phase of Nessie GC, must not be used with the in-memor
                              - number of commits as an integer value
                              - a duration (see java.time.Duration)
                              - an ISO instant
-                             - &#39;NONE&#39;, means everything&#39;s considered as live
+                             - 'NONE', means everything's considered as live
   -C, --cutoff[=&lt;String=String&gt;[,&lt;String=String&gt;...]...]
                              Cutoff policies per reference names. Supplied as a
                                ref-name-pattern=policy tuple.
@@ -23,7 +23,7 @@ Run identify-live-content phase of Nessie GC, must not be used with the in-memor
                              - number of commits as an integer value
                              - a duration (see java.time.Duration)
                              - an ISO instant
-                             - &#39;NONE&#39;, means everything&#39;s considered as live
+                             - 'NONE', means everything's considered as live
   -h, --help                 Show this help message and exit.
       --identify-parallelism=&lt;parallelism&gt;
                              Number of Nessie references that can be walked in parallel.
@@ -61,7 +61,7 @@ Run identify-live-content phase of Nessie GC, must not be used with the in-memor
                              Parameters to configure the NessieClientBuilder.
   -R, --cutoff-ref-time=&lt;cutoffPolicyRefTime&gt;
                              Reference timestamp for durations specified for --cutoff. Defaults to
-                               &#39;now&#39;.
+                               'now'.
       --time-zone=&lt;zoneId&gt;   Time zone ID used to show timestamps.
                              Defaults to system time zone.
   -u, --uri=&lt;nessieUri&gt;      Nessie API endpoint URI, defaults to http://localhost:19120/api/v2.

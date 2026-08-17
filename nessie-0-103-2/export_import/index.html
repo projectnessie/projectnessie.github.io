@@ -47,7 +47,7 @@ Nessie Server Admin Tool
 Commands:
   info                  Nessie repository information
   help                  Display help information about the specified command.
-  cleanup-repository    Cleanup unreferenced data from Nessie&#39;s repository.
+  cleanup-repository    Cleanup unreferenced data from Nessie's repository.
   cut-history           Advanced commit log manipulation command that removes
                           parents from the specified commit. Read the full help
                           message before using!
@@ -82,7 +82,7 @@ Check content readability of active keys.
                             Elements or a specific content key to check (zero
                               or more). If not set, all current keys will be
                               checked.
-  -o, --output=&lt;outputSpec&gt; JSON output file name or &#39;-&#39; for STDOUT. If not
+  -o, --output=&lt;outputSpec&gt; JSON output file name or '-' for STDOUT. If not
                               set, per-key status is not reported.
   -r, --ref=&lt;ref&gt;           Reference name to use (default branch, if not set).
   -s, --summary             Print a summary of results to STDOUT (irrespective
@@ -119,7 +119,7 @@ the Nessie Catalog.
        [--recent-objs-ids-filter-size=&lt;recentObjIdsFilterSize&gt;]
        [--referenced-grace=&lt;objReferencedGrace&gt;]
        [--scan-obj-rate=&lt;purgeScanObjRatePerSecond&gt;]
-Cleanup unreferenced data from Nessie&#39;s repository.
+Cleanup unreferenced data from Nessie's repository.
 This is a two-phase implementation that first identifies the objects that are
 referenced and the second phase scans the whole repository and deletes objects
 that are unreferenced.
@@ -145,7 +145,7 @@ to perform all operations except deleting objects.
                   Maximum allowed false-positive-probability to detect
                     referenced objects, defaults to 1.0E-4.
       --commit-rate=&lt;resolveCommitRatePerSecond&gt;
-                  Allowed number of commits to process during the &#39;resolve&#39;
+                  Allowed number of commits to process during the 'resolve'
                     phase per second. Default is unlimited.
       --dry-run   Perform all operations, but do not delete any object .
       --fpp=&lt;falsePositiveProbability&gt;
@@ -155,12 +155,12 @@ to perform all operations except deleting objects.
       --obj-count=&lt;expectedObjCount&gt;
                   Number of expected objects, defaults to 1000000.
       --obj-rate=&lt;resolveObjRatePerSecond&gt;
-                  Allowed number of objects to process during the &#39;resolve&#39;
+                  Allowed number of objects to process during the 'resolve'
                     phase per second. Default is unlimited.
       --pending-objs-batch-size=&lt;pendingObjsBatchSize&gt;
 
       --purge-obj-rate=&lt;purgeDeleteObjRatePerSecond&gt;
-                  Allowed number of objects to delete during the &#39;purge&#39; phase
+                  Allowed number of objects to delete during the 'purge' phase
                     per second. Default is unlimited.
       --recent-objs-ids-filter-size=&lt;recentObjIdsFilterSize&gt;
                   Size of the filter to recognize recently processed objects.
@@ -168,11 +168,11 @@ to perform all operations except deleting objects.
                     reasonable number. Defaults to 100000.
       --referenced-grace=&lt;objReferencedGrace&gt;
                   Grace-time for newly created objects to not be deleted.
-                    Default is just &quot;now&quot;. Specified using the ISO-8601 format,
+                    Default is just "now". Specified using the ISO-8601 format,
                     for example P1D (24 hours) or PT2H (2 hours) or P10D12H (10
                     * 24 + 10 hours).
       --scan-obj-rate=&lt;purgeScanObjRatePerSecond&gt;
-                  Allowed number of objects to scan during the &#39;purge&#39; phase
+                  Allowed number of objects to scan during the 'purge' phase
                     per second. Default is unlimited.
   -V, --version   Print version information and exit.
 </code></pre></div> <h3 id=erase-repository><code>erase-repository</code><a class=headerlink href=#erase-repository title="Permanent link">&para;</a></h3> <div class=highlight><pre><span></span><code>Usage: nessie-server-admin-tool-runner.jar erase-repository [-hV]
